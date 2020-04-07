@@ -1,0 +1,97 @@
+/*
+Desktop Break point
+Container is 1200px
+*/
+@media (max-width: 1400px) {
+
+}
+
+/* End 1270px break point */
+/*
+Tablet Landscape Break point
+Container is 960px
+*/
+@media (max-width: 1270px) {
+
+  .where-to-buy-map-layout .where-to-buy-map-container {
+    /*width: 950px !important;*/
+  }
+
+  .where-to-buy-map-layout .search-map-container .search-section {
+    width: 45% !important;
+  }
+
+  .where-to-buy-map-layout .search-map-container .map-section-container {
+    width: 55% !important;
+  }
+
+}
+
+/* End 1270px break point */
+
+/*
+Tablet Portrait Break point
+Container is 700px
+*/
+@media (max-width: 1020px) {
+
+  .where-to-buy-map-layout .where-to-buy-map-container {
+    /*width: 700px !important;*/
+  }
+
+  .where-to-buy-map-layout .search-map-container .search-section {
+    width: 100% !important;
+    display: table-row !important;
+  }
+
+  .where-to-buy-map-layout .search-map-container .map-section-container {
+    width: 100% !important;
+    /*display: table-row !important;*/
+  }
+
+}
+
+/* End 1020px break point */
+
+/*
+Mobile Large Break point
+Container is max 600px width:94%
+*/
+@media (max-width: 735px) {
+
+  .where-to-buy-map-layout {
+    background: #fff !important;
+  }
+
+  .where-to-buy-map-layout .where-to-buy-map-container {
+    /*width: 400px !important;*/
+    padding: 10px 10px !important;
+    background-color: #f2f2f2 !important;
+  }
+
+  .where-to-buy-map-layout .where-to-buy-map-container .page-title {
+    font-size: 24px !important;
+  }
+}
+
+/* End 735px break point */
+
+/*
+Mobile Small Break point
+Container is max 600px width:94%
+*/
+@media (max-width: 375px) {
+
+  .where-to-buy-map-layout {
+    background: #f2f2f2 !important;
+  }
+
+  .where-to-buy-map-layout .where-to-buy-map-container {
+    width: 280px !important;
+    padding: 10px 0 !important;
+    background-color: #f2f2f2 !important;
+  }
+
+}
+
+/* End 450px break point */

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Air Mon Stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Barstow", "description": "Monitored Parameters: NOX, Ozone, PM10, Temperature, and wind." }, "geometry": { "type": "Point", "coordinates": [ -117.024756, 34.894054 ] } },
+{ "type": "Feature", "properties": { "Name": "Trona", "description": "Monitored Parameters: NOX, Ozone, PM10, Temperature and Wind." }, "geometry": { "type": "Point", "coordinates": [ -117.372109, 35.774455 ] } },
+{ "type": "Feature", "properties": { "Name": "Lucerne Valley", "description": "Monitored Parameters: PM10, Wind, and Temperature" }, "geometry": { "type": "Point", "coordinates": [ -116.906874, 34.4101 ] } },
+{ "type": "Feature", "properties": { "Name": "Victorville", "description": "Monitored Parameters: NOX, Ozone, PM10, Temperature and Wind" }, "geometry": { "type": "Point", "coordinates": [ -117.325553, 34.510955 ] } },
+{ "type": "Feature", "properties": { "Name": "Lancaster", "description": "Monitored Parameters: NOX, Ozone, PM10, Wind and Temperature." }, "geometry": { "type": "Point", "coordinates": [ -118.130689, 34.669589 ] } },
+{ "type": "Feature", "properties": { "Name": "Phelan", "description": "Monitored Parameters: Ozone" }, "geometry": { "type": "Point", "coordinates": [ -117.589813, 34.425052 ] } },
+{ "type": "Feature", "properties": { "Name": "Hesperia", "description": "Monitored Parameters: Ozone, PM10, Wind and TMP" }, "geometry": { "type": "Point", "coordinates": [ -117.285602, 34.416506 ] } },
+{ "type": "Feature", "properties": { "Name": "29 Palms", "description": "Monitored Parameters: NOX, PM10, Ozone, Wind and Temperature." }, "geometry": { "type": "Point", "coordinates": [ -116.037985, 34.209441 ] } }
+]
+}

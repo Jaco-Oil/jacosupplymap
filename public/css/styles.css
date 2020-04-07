@@ -1,0 +1,353 @@
+/* Where To Buy Map Page*/
+.where-to-buy-map-layout {
+  background-color: #f2f2f2;
+}
+
+.where-to-buy-map-layout .where-to-buy-map-container {
+  margin: auto;
+  padding: 50px 0 20px 0;
+}
+
+.where-to-buy-map-layout .where-to-buy-map-container .page-title {
+  color: #007dc4;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.where-to-buy-map-layout .where-to-buy-map-container .search-map-container {
+  border: 1px solid #ececec;
+  background-color: #fff;
+  display: table;
+  width: 100%;
+}
+
+.where-to-buy-map-layout .search-map-container .search-section {
+  width: 35%;
+  display: table-cell;
+}
+
+.where-to-buy-map-layout .search-map-container .map-section-container {
+  width: 65%;
+  display: table-cell;
+  vertical-align: top;
+  position: relative;
+}
+
+.where-to-buy-map-layout .search-map-container .map-section {
+  height: 600px;
+  max-height: 600px;
+}
+
+.where-to-buy-map-layout .search-section .top-section {
+  padding: 15px;
+  border-bottom: 1px solid #ececec;
+  height: 150px;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-title {
+  font-size: 22px;
+  color: #58595b;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-input input {
+  -moz-appearance: none;
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #f1f2f2;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #6d6f70;
+  float: left;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1em;
+  margin: 0 !important;
+  outline: medium none;
+  padding: 10px 30px 10px 10px;
+  width: 90%;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-filter{
+  margin-top: 10px;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-filter input.filterCheckbox {
+  width: 5%;
+  padding-top: -10px;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-filter .filterSelect {
+  width: 25%;
+  font-size: 12px;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-filter label {
+  color: #6d6f70;
+  font-size: 13px;
+  font-weight: 100;
+  /*line-height: 1em;*/
+  vertical-align: text-top;
+}
+
+
+.where-to-buy-map-layout .search-section .top-section .search-input {
+  position: relative;
+  /*text-indent: 30px;*/
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-input .fa-close {
+  display: none;
+  position: absolute;
+  right: 55px;
+  bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.where-to-buy-map-layout .search-section .search-input .search-input-go-button {
+  position: absolute;
+  display: block;
+  padding: 9px 13px 9px 13px;
+  font-size: 14px;
+  background-color: #f7931a;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.where-to-buy-map-layout .search-section .search-results-line {
+  margin-top: 15px;
+}
+
+.where-to-buy-map-layout .search-section .search-results-line .search-result {
+  width: 60%;
+  float: left;
+  font-size: 12px;
+  color: #58595b;
+  text-transform: uppercase;
+}
+
+.where-to-buy-map-layout .search-section .search-results-line .search-filter {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+.where-to-buy-map-layout .search-section .results-section {
+}
+
+.where-to-buy-map-layout .search-section .start-search {
+  width: 80%;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.where-to-buy-map-layout .search-section .results-section .start-search-title {
+  color: #087dc2;
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.where-to-buy-map-layout .search-section .results-section .start-search-description {
+  font-size: 13px;
+  color: #404041;
+  font-weight: 300;
+}
+
+.where-to-buy-map-layout .search-section .results-section .results ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  max-height: 450px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.where-to-buy-map-layout .search-section .results-section .results li {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ececec;
+}
+
+.where-to-buy-map-layout .search-section .results-section .results li:hover {
+  background-color: #e6e7e9;
+}
+
+.where-to-buy-map-layout .search-section .results .result-container {
+  display: table;
+  width: 100%;
+}
+
+.where-to-buy-map-layout .search-section .results .result-details {
+  display: table-cell;
+  width: 75%;
+}
+
+.where-to-buy-map-layout .search-section .results .result-details span {
+  display: block;
+}
+
+.where-to-buy-map-layout .search-section .results .result-details span.result-company-name {
+  font-size: 14px;
+  color: #58595b;
+  font-weight: 700;
+}
+
+.where-to-buy-map-layout .search-section .results .result-details span.result-address {
+  font-size: 14px;
+  color: #58595b;
+  font-weight: 100;
+}
+
+.where-to-buy-map-layout .search-section .results .result-icon {
+  display: table-cell;
+  width: 25%;
+  vertical-align: middle;
+  text-align: center;
+  border-left: 1px solid #ececec;
+}
+
+.where-to-buy-map-layout .search-section .results .result-icon img {
+  display: block;
+  margin: auto;
+}
+
+.where-to-buy-map-layout .search-section .search-filter span,
+.where-to-buy-map-layout .search-section .results .result-icon span {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.where-to-buy-map-layout .search-section span.installer,
+.where-to-buy-map-layout .map-section-container .map-legend span.installer,
+.where-to-buy-map-layout .search-section .results .result-icon span.installer {
+  color: #003768;
+}
+
+.where-to-buy-map-layout .search-section span.distributor,
+.where-to-buy-map-layout .map-section-container .map-legend span.distributor,
+.where-to-buy-map-layout .search-section .results .result-icon span.distributor {
+  color: #fccb0e;
+}
+
+.where-to-buy-map-layout .search-section span.retailer,
+.where-to-buy-map-layout .map-section-container .map-legend span.retailer,
+.where-to-buy-map-layout .search-section .results .result-icon span.retailer {
+  color: #007dc4;
+}
+
+.where-to-buy-map-layout .search-section .results span.distance {
+  color: #404041;
+}
+
+.where-to-buy-map-layout .search-section .results ::-webkit-scrollbar {
+  width: 12px;
+}
+
+.where-to-buy-map-layout .search-section .results ::-webkit-scrollbar-track {
+  background-color: #fff;
+  border: 1px solid #e6e7e9;
+}
+
+.where-to-buy-map-layout .search-section .results ::-webkit-scrollbar-thumb {
+  background-color: #bcbdbf;
+  border-radius: 10px;
+}
+
+.where-to-buy-map-layout .map-section-container .map-legend {
+  z-index: 5;
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  background: #fff;
+  display: table;
+  padding: 2px 5px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.where-to-buy-map-layout .map-section-container .map-legend span {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.where-to-buy-map-layout .map-section-container .map-legend a {
+  text-decoration: none;
+}
+
+.where-to-buy-map-layout .map-section-container .map-legend .legend-installer,
+.where-to-buy-map-layout .map-section-container .map-legend .legend-distributors,
+.where-to-buy-map-layout .map-section-container .map-legend .legend-retailers {
+  text-align: center;
+  padding: 0 5px;
+  border-radius: 3px;
+  display: table-cell;
+  vertical-align: middle;
+  border-right: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.where-to-buy-map-layout .map-section-container a.map-info-window-link{
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  font-family: 'Roboto';
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: .6em 1.2em;
+  white-space: nowrap;
+  display: inline-block;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin-bottom: .5em;
+  margin-top: .5em;
+  font-size: 1.1em;
+  margin-top: .5em;
+  color: #545154;
+  background-color: #ffc000;
+}
+
+.where-to-buy-map-layout .map-section-container a.map-info-window-link:hover{
+  background-color: #2f383e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.where-to-buy-map-layout .map-section-container .map-legend .legend-retailers {
+  border-right: none;
+}
+
+.where-to-buy-map-layout .map-section-container .map-legend img {
+  width: 12px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.where-to-buy-map-layout .search_list_element_template,
+.where-to-buy-map-layout .tooltip_templates {
+  display: none;
+}
+
+.design-jpg {
+  overflow: hidden;
+}
+
+.gfield input, .gfield select, .gfield textarea {
+  padding: 14px 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pac-container:after {
+  background-image: none !important;
+  height: 0px;
+}

@@ -1,0 +1,594 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Jaco Terminal and Station Map</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/normalize.min.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/chosen.min.css"/>
+  <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+
+<body class="" name="top">
+<div class="body-wrapper">
+  <div class="fullwidth-container where-to-buy-map-layout">
+    <div class="where-to-buy-map-container clearfix page-container">
+      <div class="search-map-container">
+        <div class="search-section">
+          <div class="top-section">
+            <div class="search-title font-weight-900">Find Jaco Gas Station</div>
+            <div class="search-input clearfix">
+              <span class="fa fa-close" id="resetSearch"></span>
+              <input type="search" value="" id="searchInput" placeholder="Enter a address or postcode">
+              <span class="search-input-go-button" id="searchInputGoButton">GO</span>
+            </div>
+            <div class="search-filter clearfix">
+              <label for="stationFilter">Station</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Station" id="stationFilter">&nbsp;&nbsp;&nbsp;
+                <label for="terminalFilter">Terminal</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Terminal" id="terminalFilter">
+                <label for="stationsListFilter">&nbsp;</label>&nbsp;
+                <select class="filterSelect" type="checkbox" value="Terminal" id="stationsListFilter" data-placeholder="Station #">
+                    <option value="">Station #</option>
+                </select>
+            </div>
+            <div class="search-results-line clearfix">
+              <div class="search-result">0 results found</div>
+            </div>
+          </div>
+          <div class="results-section">
+            <div class="results">
+              <ul></ul>
+            </div>
+            <div class="start-search">
+              <div class="start-search-title">Enter your search</div>
+              <div class="start-search-description"></div>
+            </div>
+          </div>
+        </div>
+        <div class="map-section-container">
+          <div class="map-section" id="searchResultsMap">
+          </div>
+        </div>
+        <div class="search_list_element_template">
+          <li data-url="#" data-results-id="#" data-location-id="#" data-location-type="#" data-distance="#"
+              class="list-element-template">
+            <div class="result-container">
+              <div class="result-details">
+                <span class="result-company-name"></span>
+                <span class="result-address"></span>
+              </div>
+              <div class="result-icon"><img src="images/direction.png" class="directionImage"><span class="retailer">ATM</span><br><span
+                  class="distance"></span></div>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="js/marketClusterer.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8CgnGnHEkyeweyqk-Abf-BjhRb_j2o90&callback=initMap&libraries=places"></script>
+
+<script>
+  $(document).ready(function () {
+    jacoMap = JacoOilMap.getInstance();
+    jacoMap.init();
+
+//    var xhr = new XMLHttpRequest();
+//    xhr.open("GET", dataUrl, true);
+//    xhr.onreadystatechange = function() {
+//      debugger;
+//      if (xhr.readyState == 4) {
+//        // JSON.parse does not evaluate the attacker's scripts.
+//        var resp = JSON.parse(xhr.responseText);
+//      }
+//    }
+//    xhr.send();
+//
+//    function createCORSRequest(method, url) {
+//      var xhr = new XMLHttpRequest();
+//      if ("withCredentials" in xhr) {
+//
+//        // Check if the XMLHttpRequest object has a "withCredentials" property.
+//        // "withCredentials" only exists on XMLHTTPRequest2 objects.
+//        xhr.open(method, url, true);
+//
+//      } else if (typeof XDomainRequest != "undefined") {
+//
+//        // Otherwise, check if XDomainRequest.
+//        // XDomainRequest only exists in IE, and is IE's way of making CORS requests.
+//        xhr = new XDomainRequest();
+//        xhr.open(method, url);
+//
+//      } else {
+//
+//        // Otherwise, CORS is not supported by the browser.
+//        xhr = null;
+//
+//      }
+//      return xhr;
+//    }
+//
+//    var xhr = createCORSRequest('GET', dataUrl);
+//    if (!xhr) {
+//      throw new Error('CORS not supported');
+//    }
+//    xhr.withCredentials = true;
+//    xhr.send();
+//    xhr.onload = function() {
+//      debugger;
+//      var responseText = xhr.responseText;
+//    };
+//    xhr.onerror = function() {
+//      debugger;
+//      console.log('There was an error!');
+//    };
+  });
+
+  var map;
+  var markers = [];
+  var autocomplete;
+  var infoWindow;
+  var checkForCookie = false;
+  var autocompleteService;
+  var searchMarker;
+  var dataUrl = "https://coinatmradar.com/api/locations/2013-01-01/?auth_key=localcoinatm_40f450fe91635816b5afff5b4300c861ca755827";
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('searchResultsMap'), {
+      zoom: 6,
+      center: new google.maps.LatLng(35.264684, -115.914932),
+      mapTypeId: 'terrain',
+      zoomControl: true,
+      streetViewControl: true,
+      rotateControl: false,
+      fullscreenControl: false,
+      mapTypeControl: false,
+      scaleControl: false
+    });
+    autocompleteService = new google.maps.places.AutocompleteService();
+    placeService = new google.maps.places.PlacesService(map);
+
+    var noPoi = [
+      {
+        featureType: "administrative.province",
+        elementType: "all",
+        stylers: [{visibility: "on"}]
+      }, {
+        featureType: "landscape",
+        elementType: "all",
+        stylers: [{visibility: "on"}, {color: "#F5F5E0"}]
+      }, {
+        featureType: "poi",
+        elementType: "all",
+        stylers: [{saturation: -100}, {lightness: 51}, {visibility: "simplified"}, {color: "#dee2e4"}]
+      }, {
+        featureType: "road.highway",
+        elementType: "all",
+        stylers: [{saturation: -100}, {visibility: "simplified"}]
+      }, {
+        featureType: "road.arterial",
+        elementType: "all",
+        stylers: [{saturation: -100}, {lightness: 30}, {visibility: "on"}]
+      }, {
+        featureType: "road.local",
+        elementType: "all",
+        stylers: [{saturation: -100}, {lightness: 40}, {visibility: "on"}]
+      }, {
+        featureType: "transit",
+        elementType: "all",
+        stylers: [{saturation: -100}, {visibility: "simplified"}]
+      }, {
+        featureType: "water",
+        elementType: "geometry",
+        stylers: [{lightness: -25}, {saturation: -97}, {color: "#7EB7C0"}]
+      }, {
+        featureType: "water",
+        elementType: "labels",
+        stylers: [{visibility: "on"}, {lightness: -25}, {saturation: -100}, {color: "#FFFFFF"}]
+      }
+    ];
+
+    map.setOptions({styles: noPoi});
+
+    var script = document.createElement('script');
+//    script.src = 'js/mapData.js';
+    script.src = 'jacoMapData.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+    infoWindow = new google.maps.InfoWindow();
+
+    if (navigator.geolocation) {
+      window.updateCurrentLocationOnMap = function () {
+        (typeof searchMarker !== "undefined")?searchMarker.setMap(null):'';
+        navigator.geolocation.getCurrentPosition(function (position) {
+          var pos = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+
+          infoWindow.setPosition(pos);
+          infoWindow.setContent('Location found.');
+
+          jacoMap.parseSearchResults(pos.lat, pos.lng);
+          var zoomLevel = jacoMap.getCurrentSearchZoomLevel();
+          map.setCenter(pos);
+          map.setZoom(zoomLevel);
+
+          searchMarker = new google.maps.Marker({
+            map: map,
+            position: pos
+          });
+
+        }, function () {
+          $.getJSON('//freegeoip.net/json/?callback=?', function (data) {
+            var data = data;
+            if (data !== null && data.latitude !== null && data.longitude !== null) {
+              var pos = {
+                lat: data["latitude"],
+                lng: data["longitude"]
+              };
+
+              map.setCenter(pos);
+              map.setZoom(10);
+            } else {
+              handleLocationError(true, infoWindow, map.getCenter());
+            }
+          });
+        });
+      };
+
+      updateCurrentLocationOnMap();
+
+    } else {
+      handleLocationError(false, infoWindow, map.getCenter());
+    }
+
+    google.maps.event.addDomListener(window, 'load', function () {
+      google.maps.event.trigger(autocomplete, 'place_changed');
+      var location = jacoMap.getSearchPlaceCookie();
+      if (location !== null && typeof location.formatted_address !== "undefined" && location.formatted_address !== "") {
+        $("#searchInput").val(location.formatted_address);
+      }
+    });
+
+    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+      infoWindow.setPosition(pos);
+      infoWindow.setContent(browserHasGeolocation ?
+          'Error: The Geolocation service failed.' :
+          'Error: Your browser doesn\'t support geolocation.');
+    }
+
+    var input = (document.getElementById('searchInput'));
+
+    autocomplete = new google.maps.places.Autocomplete(input);
+    autocomplete.bindTo('bounds', map);
+
+    $("#searchInputGoButton").on("click", function () {
+      var searchValue = $("#searchInput").val();
+      var bounds = map.getBounds();
+      autocompleteService.getPlacePredictions({ input: searchValue, bounds:bounds }, function(predictions, status){
+        if(status === "OK" && predictions.length > 0){
+          placeService.getDetails({placeId: predictions[0]['place_id']}, function(place, status){
+            if (status == google.maps.places.PlacesServiceStatus.OK) {
+              $("#searchInput").val(predictions[0]['description']);
+              (typeof searchMarker !== "undefined")?searchMarker.setMap(null):'';
+              searchMarker = new google.maps.Marker({
+                map: map,
+                position: place.geometry.location
+              });
+
+              jacoMap.parseSearchResults(place.geometry.location.lat, place.geometry.location.lng);
+              // jacoMap.updateSearchPlaceCookie(place);
+
+              var zoomLevel = jacoMap.getCurrentSearchZoomLevel();
+              map.setCenter(searchMarker.getPosition());
+              map.setZoom(zoomLevel);
+            }
+          });
+        }
+      });
+//      autocompleteService.getPlacePredictions({ input: searchValue, location: new google.maps.LatLng(43.665097, -79.411125), radius: 50000 }, function(predictions, status){debugger});
+//      google.maps.event.trigger(autocomplete, 'place_changed');
+    });
+
+
+
+    autocomplete.addListener('place_changed', function () {
+      infoWindow.close();
+
+      if (checkForCookie === false) {
+        var place = jacoMap.getSearchPlaceCookie();
+        checkForCookie = true;
+      } else {
+        var place = autocomplete.getPlace();
+      }
+
+      if (place === null) {
+        return;
+      }
+
+
+      if (!place.geometry) {
+        var searchValue = $("#searchInput").val();
+        var bounds = map.getBounds();
+        autocompleteService.getPlacePredictions({ input: searchValue, bounds:bounds }, function(predictions, status) {
+          if (status === "OK" && predictions.length > 0) {
+            placeService.getDetails({placeId: predictions[0]['place_id']}, function (place, status) {
+              if (status == google.maps.places.PlacesServiceStatus.OK) {
+                $("#searchInput").val(predictions[0]['description']);
+                (typeof searchMarker !== "undefined")?searchMarker.setMap(null):'';
+                searchMarker = new google.maps.Marker({
+                  map: map,
+                  position: place.geometry.location
+                });
+
+                jacoMap.parseSearchResults(place.geometry.location.lat, place.geometry.location.lng);
+                jacoMap.updateSearchPlaceCookie(place);
+
+                var zoomLevel = jacoMap.getCurrentSearchZoomLevel();
+                map.setCenter(searchMarker.getPosition());
+                map.setZoom(zoomLevel);
+              }
+            });
+          }
+        });
+        return;
+      }
+
+
+      (typeof searchMarker !== "undefined")?searchMarker.setMap(null):'';
+      searchMarker = new google.maps.Marker({
+        map: map,
+        position: place.geometry.location
+      });
+
+      jacoMap.parseSearchResults(place.geometry.location.lat, place.geometry.location.lng);
+      jacoMap.updateSearchPlaceCookie(place);
+
+      var zoomLevel = jacoMap.getCurrentSearchZoomLevel();
+      map.setCenter(place.geometry.location);
+      map.setZoom(zoomLevel);
+
+      // If the place has a geometry, then present it on a map.
+      if (place.geometry.viewport) {
+//        map.fitBounds(place.geometry.viewport);
+      }
+    });
+  }
+
+  window.dataFeed_callback = function (stations, terminals) {
+    var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var results = stations.concat(terminals);
+    var marketType = "station";
+    var icon = 'images/marker.png';
+    var icon_terminal = 'images/marker_terminal.png';
+    var icon24 = 'images/marker_24.png';
+    var icon_ttc = 'images/marker_ttc.png';
+    var currencies = {
+      'bitcoin': 'images/bitcoin_small.png',
+      'litecoin': 'images/litecoin_small.png',
+      'ether': 'images/ether_small.png'
+    };
+    var markerType = "";
+    var markerIcon = "";
+    var markerLabel = {};
+
+
+
+    for(var i = 0; i < results.length; i++){
+      var rawMarker = results[i];
+
+      if(typeof rawMarker.terminalId !== "undefined") {
+        markerType = "terminal";
+      }else{
+        markerType = "station";
+      }
+
+      if(markerType === "terminal"){
+        markerIcon = {
+          url: icon_terminal
+        };
+        markerLabel = {
+          text: " "
+        };
+      }else{
+        markerIcon = {
+          url: icon,
+          labelOrigin: new google.maps.Point(50, -5)
+        };
+        markerLabel = {
+          text: ""+rawMarker.stationId,
+          fontFamily: "Verdana",
+          fontSize: "16px",
+          fontWeight: "bold",
+          color: "red"
+        };
+      }
+
+      var latLng = new google.maps.LatLng(rawMarker.latitude, rawMarker.longitude);
+      var directionUrl = "https://www.google.com/maps/dir/?api=1&destination=" + rawMarker.latitude + "," + rawMarker.longitude;
+      var directionDestination =  "&destination=" + rawMarker.latitude + "," + rawMarker.longitude;
+
+      var marker = new google.maps.Marker({
+        title: rawMarker.name,
+        category: marketType,
+        position: latLng,
+        icon: markerIcon,
+        label: markerLabel,
+        resultsId: (typeof rawMarker.stationId !== "undefined")?rawMarker.stationId:rawMarker.terminalId
+      });
+
+      if(markerType === "station" && rawMarker["stores"].length > 0) {
+        var allStores = rawMarker["stores"];
+        var storesContent = "";
+        if(allStores.length > 0) {
+          for (var k = 0; k < allStores.length; k++) {
+            var singleStore = allStores[k];
+
+            if(singleStore.supplierType == "last"){
+              storesContent += '<br/>Last Supply Point: ' + singleStore.terminalName + ' - ' +singleStore.supplierName;
+              storesContent += '<br/>Carrier: ' + singleStore.carrierName;
+
+              if(typeof singleStore["products"] !== "undefined" && singleStore["products"].length > 0){
+                for(var j = 0; j < singleStore["products"].length; j++){
+                  storesContent += '<br/>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;' + singleStore["products"][j].name + ' for $' + singleStore["products"][j].price;
+                }
+              }
+
+            }else{
+              if(typeof singleStore["products"] !== "undefined"){
+                  storesContent += '<br/><span style="font-size: 14px !important;">Alternate Supply Points:</span>';
+
+                  var stores = Object.values(singleStore["products"]);
+                  var products = Object.keys(singleStore["products"]);
+                  if(products.length > 0){
+                    for(var l = 0; l < products.length; l++){
+                      storesContent += '<br/><br/><strong>' + products[l] + '</strong>';
+
+                      for(var n = 0; n < stores[l].length; n++) {
+                        storesContent += '<br/>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;' + stores[l][n].terminal_name + ' - ' +stores[l][n].name + ' for $' + stores[l][n].price + '&nbsp;<i>('+stores[l][n].carrier_name+')</i>';
+                      }
+                    }
+                  }
+              }
+
+            }
+
+            storesContent += "<br/>";
+          }
+        }
+      }
+
+      if(markerType === "terminal" && rawMarker["stores"].length > 0 && rawMarker["stores"][0] != 0) {
+        var allStores = rawMarker["stores"][0];
+        var terminalContent = "";
+        var allStoresArray = Object.values(allStores);
+        for (var k = 0; k < allStoresArray.length; k++) {
+          var singleStore = allStoresArray[k];
+
+          if(singleStore.products[0].length > 0){
+            terminalContent += '<br/><strong>' + singleStore.storeId + '</strong>';
+            var storeSupplierCurrent = "";
+
+            for (var l = 0; l < singleStore.products[0].length; l++) {
+              var storeProduct = singleStore.products[0][l];
+              var productName = jacoMap.getProductName(storeProduct.name);
+
+              if(storeSupplierCurrent == "" || storeSupplierCurrent !== storeProduct.supplier_name){
+                storeSupplierCurrent = storeProduct.supplier_name;
+                terminalContent += '<br/>&nbsp;&nbsp;&nbsp;' + storeProduct.supplier_name;
+              }
+
+              terminalContent += '<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;' + productName + ' for $' + storeProduct.price;
+            }
+
+          }
+
+          terminalContent += "<br/>";
+        }
+      }
+
+      if(markerType === "station") {
+        var markerContent = '<span style="font-size: 16px !important;"><strong>'+rawMarker.stationId+'&nbsp;' + rawMarker.name + '</strong></span>';
+        markerContent += '<br><br><span style="font-size: 14px !important;"><strong>Store information</strong></span>';
+        markerContent += '<br>Address: ' + rawMarker.address;
+        markerContent += '<br>CityStateZip: ' + rawMarker.city + ' ' + rawMarker.state + ' ' + rawMarker.zip;
+        markerContent += '<br>Tel. No. ' + rawMarker.phone;
+        markerContent += '<br>Operator/Manager: <a href="mailto:' + rawMarker.email + '">' + rawMarker.manager + '</a>';
+        markerContent += '<br><br><span style="font-size: 14px !important;"><strong>Supply information</span></strong>';
+        markerContent += storesContent;
+
+        if (typeof rawMarker.name !== "undefined") {
+          markerContent += '<p><select class="info-window-terminals-list"><option value="1003">COLTON - KINDERMORGAN</option><option value="1005">CHICO - KINDERMORGAN</option><option value="1006">KOR - HARPERTOWN</option><option value="1007">IMPERIAL</option><option value="1008">LAS VEGAS - KINDERMORGAN</option><option value="1016">SAN JOSE - KINDERMORGAN</option><option value="1017">CARSON - KINDERMORGAN</option><option value="1019">STOCKTON - ST SERVICES</option><option value="1024">LA - LAT</option><option value="1030">PHOENIX - KINDERMORGAN</option><option value="2028">FRESNO - KINDERMORGAN</option><option value="2034">TUCSON - KINDERMORGAN</option><option value="2039">LA - LONG BEACH - PDI</option><option value="2085">SACRAMENTO KM</option></select>';
+          markerContent += '&nbsp;&nbsp;&nbsp;<a href="#" data-direction="'+directionUrl+'" target="_blank" class="map-info-window-link direction-to-terminal">Get Directions</a></p>';
+          // markerContent += '&nbsp;&nbsp;&nbsp;<a href="' + directionUrl + '" target="_blank" class="map-info-window-link">Get Directions</a></p>';
+        }
+      }
+
+      if(markerType === "terminal"){
+        var markerContent = '<span style="font-size: 16px !important;"><strong>' + rawMarker.name + '</strong></span>';
+        markerContent += '<br/>'+terminalContent;
+
+        if (typeof rawMarker.name !== "undefined") {
+          // markerContent += '<p><a href="' + directionUrl + '" target="_blank" class="map-info-window-link">Get Directions</a></p>';
+        }
+      }
+
+      marker['infowindow'] = new google.maps.InfoWindow({
+        content: markerContent
+      });
+
+      google.maps.event.addListener(marker, 'click', function () {
+        for (var i = 0; i < markers.length; i++) {
+          if (markers[i]['infowindow']) {
+            markers[i]['infowindow'].close();
+          }
+        }
+
+        this['infowindow'].open(map, this);
+      });
+
+      markers.push(marker);
+    };
+
+    var clusterOptions = {
+      maxZoom: 13,
+      zoomOnClick: true,
+      styles:[{
+        url: "images/map-marker1.png",
+        width: 53,
+        height:53,
+        textSize:15,
+        textColor:"white"
+        //color: #00FF00,
+      },{
+        url: "images/map-marker2.png",
+        width: 53,
+        height:53,
+        textSize:15,
+        textColor:"white"
+        //color: #00FF00,
+      },{
+        url: "images/map-marker3.png",
+        width: 53,
+        height:53,
+        textSize:15,
+        textColor:"white"
+        //color: #00FF00,
+      },{
+        url: "images/map-marker4.png",
+        width: 53,
+        height:53,
+        textSize:15,
+        textColor:"white"
+        //color: #00FF00,
+      },{
+        url: "images/map-marker5.png",
+        width: 53,
+        height:53,
+        textSize:15,
+        textColor:"white"
+        //color: #00FF00,
+      }]
+    };
+
+    var markerCluster = new MarkerClusterer(map, markers, clusterOptions);
+
+    jacoMap.setMapAutoComplete(autocomplete);
+    jacoMap.setMapObject(map);
+    jacoMap.setMapInfoWindow(infoWindow);
+    jacoMap.setMarkers(markers);
+    jacoMap.setMarkersRawData(results);
+    jacoMap.setMarkersCluster(markerCluster);
+//    jacoMap.setLocationResetCallback(updateCurrentLocationOnMap);
+    jacoMap.loadDefaultData();
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+/* BASIC STYLE */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+/*CONTAINER*/
+body{
+	background:#d8d8d8;
+}
+.body-wrapper{
+	background:#fff;
+	max-width: 1600px;
+	margin:auto;
+}
+.page-container{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.fullwidth-container {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+@media (max-width: 1400px) {
+	.page-container{
+		max-width: 1200px;
+	}
+}
+@media (max-width: 1270px) {
+	.page-container{
+		max-width: 960px;
+	}
+}
+@media (max-width: 1020px) {
+	.page-container{
+		max-width: 700px !important;
+	}
+}
+@media (max-width: 735px) {
+	.page-container{
+		max-width: 600px !important;
+		width: 94%;
+	}
+}
+
+/*Standard classes*/
+* { outline: none;}
+.clearfix:after,
+.body-wrapper:after,
+.fullwidth-container:after,
+.page-container:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix,
+* html .fullwidth-container,
+* html .page-container             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix,
+*:first-child+html .fullwidth-container,
+*:first-child+html .page-container { zoom: 1; } /* IE7 */
+
+em,i{
+	font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    padding-left: 0;
+}
+
+
+/*defualt page*/
+html[data-ios="true"] .bg-cover {
+	background-size: initial;
+	-webkit-background-size: initial;
+	-moz-background-size: initial;
+	-o-background-size: initial;
+}
+
+/* Gravity Forms */
+input{
+	outline: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.hide {
+	display: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+a {
+    cursor: pointer;
+}
