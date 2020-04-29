@@ -12,7 +12,7 @@ use App\Models\BestBuy;
 class TerminalController extends Controller
 {
 
-    public function getAll(Request $request)
+    public function getAll()
     {
         $data = [];
 

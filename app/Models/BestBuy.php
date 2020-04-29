@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class BestBuy extends Model
 {
     protected $table = 'best_buy';
+    public $timestamps = false;
 
     public function station()
     {

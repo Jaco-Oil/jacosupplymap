@@ -12,7 +12,7 @@ use App\Models\BestBuy;
 class StationController extends Controller
 {
 
-    public function getAll(Request $request)
+    public function getAll()
     {
         $data = [];
 
