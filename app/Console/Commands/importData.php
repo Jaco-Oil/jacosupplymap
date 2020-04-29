@@ -46,9 +46,9 @@ class importData extends Command
      */
     public function handle()
     {
-//        $this->importTerminal();
-//        $this->importStations();
-//        $this->importBestBuy();
+        $this->importTerminal();
+        $this->importStations();
+        $this->importBestBuy();
 
         // save json
 
@@ -65,42 +65,8 @@ class importData extends Command
 
     private function importBestBuy()
     {
-        $best_buy_tmp = BestBuyImport::where('effectiveDate', '2020-04-28')->get();
-
-//        $best_buy_tmp = DB::connection('sqlsrv')
-//          ->table('wfifuel.bbm.vBestBuyMapData')
-//          ->select(DB::raw('[stationID]
-//                  ,[name]
-//                  ,[rankID]
-//                  ,[terminalID]
-//                  ,[AlternateTerminalName]
-//                  ,[supplierID]
-//                  ,[AlternateSupplierName]
-//                  ,[carrierID]
-//                  ,[effectivePrice]
-//                  ,[supplierDiscount]
-//                  ,[supplierEC]
-//                  ,[netCost]
-//                  ,[carrierGasFreight]
-//                  ,[effectiveDate]
-//                  ,[effectiveTime]
-//                  ,[carrierAlternateName]
-//                  ,[directLink]
-//                  ,[fuelTax]
-//                  ,[productGradeName]
-//                  ,[productGradeID]
-//                  ,[gradeEnforced]
-//                  ,[epaScheduleName]
-//                  ,[epaDateBegin]
-//                  ,[epaDateEnd]
-//                  ,[epaDistrictName]
-//                  ,[productOrder]
-//                  ,[ProductCode]
-//                  ,[productAlternateName]
-//                  ,[carrierSurchargeAmt]
-//                  ,[ustFee]'))
-//          ->where('effectiveDate', 'cast(getDate() as Date')
-//          ->get();
+//        $best_buy_tmp = BestBuyImport::where('effectiveDate', '2020-04-28')->get();
+        $best_buy_tmp = BestBuyImport::where('effectiveDate', 'cast(getDate() as Date')->get();
 
         if ($best_buy_tmp->count()) {
             $best_buy = BestBuy::truncate();
@@ -146,26 +112,6 @@ class importData extends Command
     {
         $stations_tmp = StationImport::all();
 
-//        $stations_tmp = DB::connection('sqlsrv')
-//          ->table('gasstation.bbm.vGasStationInfo')
-//          ->select(DB::raw('TOP (1000) [stationID]
-//                          ,[StationName]
-//                          ,[StationAddress]
-//                          ,[StationCity]
-//                          ,[StationState]
-//                          ,[StationZipCode]
-//                          ,[ownershipName]
-//                          ,[StationOperator]
-//                          ,[StationEmail]
-//                          ,[StationPhone]
-//                          ,[StationMobile]
-//                          ,[SupervisorName]
-//                          ,[Partnership]
-//                          ,[SMSEmail]
-//                          ,[SMSEmail2]
-//                          ,[SMSEmail3]'))
-//          ->get();
-
         if ($stations_tmp->count()) {
             foreach ($stations_tmp as $row) {
                 $station = Station::updateOrCreate(
@@ -196,33 +142,6 @@ class importData extends Command
     private function importTerminal()
     {
         $terminals_tmp = TerminalImport::where('EntityName', 'JACO')->get();
-
-//        $terminals_tmp = DB::connection('sqlsrv')
-//          ->table('wfifuel.dbo.vw_WF_Terminal')
-//          ->select(DB::raw('TOP (1000) [TerminalID]
-//                  ,[TerminalName]
-//                  ,[terminalTypeID]
-//                  ,[terminalTypeName]
-//                  ,[entityID]
-//                  ,[entityName]
-//                  ,[factorTerminalID]
-//                  ,[AlternateTerminalName]
-//                  ,[Address1]
-//                  ,[Address2]
-//                  ,[City]
-//                  ,[County]
-//                  ,[State]
-//                  ,[stateName]
-//                  ,[ZipCode]
-//                  ,[terminalWebsite]
-//                  ,[entityNotes]
-//                  ,[petroTerminalID]
-//                  ,[CadecTerminalID]
-//                  ,[term_Latitude]
-//                  ,[term_Longitude]
-//                  ,[terminalStatus]'))
-//          ->get();
-
 
         if ($terminals_tmp->count()) {
             $terminals = Terminal::truncate();
