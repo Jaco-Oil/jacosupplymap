@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class StationImport extends Model
 {
-    protected $connection = 'mysql2';
-    protected $table='stations';
+    protected $connection = 'sqlsrv';
+    protected $table='gasstation.bbm.vGasStationInfo';
 }

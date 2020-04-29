@@ -65,7 +65,42 @@ class importData extends Command
 
     private function importBestBuy()
     {
-        $best_buy_tmp = BestBuyImport::all();
+        $best_buy_tmp = BestBuyImport::where('effectiveDate', '2020-04-28')->get();
+
+//        $best_buy_tmp = DB::connection('sqlsrv')
+//          ->table('wfifuel.bbm.vBestBuyMapData')
+//          ->select(DB::raw('[stationID]
+//                  ,[name]
+//                  ,[rankID]
+//                  ,[terminalID]
+//                  ,[AlternateTerminalName]
+//                  ,[supplierID]
+//                  ,[AlternateSupplierName]
+//                  ,[carrierID]
+//                  ,[effectivePrice]
+//                  ,[supplierDiscount]
+//                  ,[supplierEC]
+//                  ,[netCost]
+//                  ,[carrierGasFreight]
+//                  ,[effectiveDate]
+//                  ,[effectiveTime]
+//                  ,[carrierAlternateName]
+//                  ,[directLink]
+//                  ,[fuelTax]
+//                  ,[productGradeName]
+//                  ,[productGradeID]
+//                  ,[gradeEnforced]
+//                  ,[epaScheduleName]
+//                  ,[epaDateBegin]
+//                  ,[epaDateEnd]
+//                  ,[epaDistrictName]
+//                  ,[productOrder]
+//                  ,[ProductCode]
+//                  ,[productAlternateName]
+//                  ,[carrierSurchargeAmt]
+//                  ,[ustFee]'))
+//          ->where('effectiveDate', 'cast(getDate() as Date')
+//          ->get();
 
         if ($best_buy_tmp->count()) {
             $best_buy = BestBuy::truncate();
@@ -107,29 +142,50 @@ class importData extends Command
     }
 
 
-    private function importStations() {
+    private function importStations()
+    {
         $stations_tmp = StationImport::all();
+
+//        $stations_tmp = DB::connection('sqlsrv')
+//          ->table('gasstation.bbm.vGasStationInfo')
+//          ->select(DB::raw('TOP (1000) [stationID]
+//                          ,[StationName]
+//                          ,[StationAddress]
+//                          ,[StationCity]
+//                          ,[StationState]
+//                          ,[StationZipCode]
+//                          ,[ownershipName]
+//                          ,[StationOperator]
+//                          ,[StationEmail]
+//                          ,[StationPhone]
+//                          ,[StationMobile]
+//                          ,[SupervisorName]
+//                          ,[Partnership]
+//                          ,[SMSEmail]
+//                          ,[SMSEmail2]
+//                          ,[SMSEmail3]'))
+//          ->get();
 
         if ($stations_tmp->count()) {
             foreach ($stations_tmp as $row) {
                 $station = Station::updateOrCreate(
-                  ['inner_id'=>$row->stationID],
+                  ['inner_id' => $row->stationID],
                   [
-                    'name'=>$this->trim($row->StationName),
-                    'address'=>$this->trim($row->StationAddress),
-                    'city'=>$this->trim($row->StationCity),
-                    'state'=>$this->trim($row->StationState),
-                    'zip_code'=>$row->StationZipCode,
-                    'ownership_name'=>$this->trim($row->ownershipName),
-                    'operator'=>$this->trim($row->StationOperator),
-                    'email'=>$this->trim($row->StationEmail),
-                    'phone'=>$this->trim($row->StationPhone),
-                    'mobile'=>$this->trim($row->StationMobile),
-                    'supervisor_name'=>$this->trim($row->SupervisorName),
-                    'partnership'=>$this->trim($row->Partnership),
-                    'sms_email'=>$this->trim($row->SMSEmail),
-                    'sms_email2'=>$this->trim($row->SMSEmail2),
-                    'sms_email3'=>$this->trim($row->SMSEmail3)
+                    'name' => $this->trim($row->StationName),
+                    'address' => $this->trim($row->StationAddress),
+                    'city' => $this->trim($row->StationCity),
+                    'state' => $this->trim($row->StationState),
+                    'zip_code' => $row->StationZipCode,
+                    'ownership_name' => $this->trim($row->ownershipName),
+                    'operator' => $this->trim($row->StationOperator),
+                    'email' => $this->trim($row->StationEmail),
+                    'phone' => $this->trim($row->StationPhone),
+                    'mobile' => $this->trim($row->StationMobile),
+                    'supervisor_name' => $this->trim($row->SupervisorName),
+                    'partnership' => $this->trim($row->Partnership),
+                    'sms_email' => $this->trim($row->SMSEmail),
+                    'sms_email2' => $this->trim($row->SMSEmail2),
+                    'sms_email3' => $this->trim($row->SMSEmail3)
                   ]
                 );
             }
@@ -140,6 +196,33 @@ class importData extends Command
     private function importTerminal()
     {
         $terminals_tmp = TerminalImport::where('EntityName', 'JACO')->get();
+
+//        $terminals_tmp = DB::connection('sqlsrv')
+//          ->table('wfifuel.dbo.vw_WF_Terminal')
+//          ->select(DB::raw('TOP (1000) [TerminalID]
+//                  ,[TerminalName]
+//                  ,[terminalTypeID]
+//                  ,[terminalTypeName]
+//                  ,[entityID]
+//                  ,[entityName]
+//                  ,[factorTerminalID]
+//                  ,[AlternateTerminalName]
+//                  ,[Address1]
+//                  ,[Address2]
+//                  ,[City]
+//                  ,[County]
+//                  ,[State]
+//                  ,[stateName]
+//                  ,[ZipCode]
+//                  ,[terminalWebsite]
+//                  ,[entityNotes]
+//                  ,[petroTerminalID]
+//                  ,[CadecTerminalID]
+//                  ,[term_Latitude]
+//                  ,[term_Longitude]
+//                  ,[terminalStatus]'))
+//          ->get();
+
 
         if ($terminals_tmp->count()) {
             $terminals = Terminal::truncate();
@@ -164,7 +247,8 @@ class importData extends Command
         }
     }
 
-    private function trim($value) {
+    private function trim($value)
+    {
         return trim(str_replace('  ', ' ', $value));
     }
 }
