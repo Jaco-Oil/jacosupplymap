@@ -140,6 +140,32 @@
   var dataUrl = "https://coinatmradar.com/api/locations/2013-01-01/?auth_key=localcoinatm_40f450fe91635816b5afff5b4300c861ca755827";
 
   function initMap() {
+    var loadedStations = false;
+    var loadedTerminals = false;
+    var stationsData = {};
+    var terminalsData = {};
+    var loadedAllData = false;
+
+
+    $.getJSON("storage/stations.json", function(json) {
+      loadedStations = true;
+      stationsData = json.original;
+      if(loadedStations === true && loadedTerminals === true && loadedAllData !== true){
+        loadedAllData= true;
+        window.startMapWithData(stationsData, terminalsData);
+      }
+
+    });
+
+    $.getJSON("storage/terminals.json", function(json) {
+      loadedTerminals = true;
+      terminalsData = json.original;
+      if(loadedStations === true && loadedTerminals === true && loadedAllData !== true){
+        loadedAllData= true;
+        window.startMapWithData(stationsData, terminalsData);
+      }
+    });
+
     map = new google.maps.Map(document.getElementById('searchResultsMap'), {
       zoom: 6,
       center: new google.maps.LatLng(35.264684, -115.914932),
@@ -196,10 +222,10 @@
 
     map.setOptions({styles: noPoi});
 
-    var script = document.createElement('script');
-//    script.src = 'js/mapData.js';
-    script.src = 'jacoMapData.js';
-    document.getElementsByTagName('head')[0].appendChild(script);
+//     var script = document.createElement('script');
+// //    script.src = 'js/mapData.js';
+//     script.src = 'jacoMapData.js';
+//     document.getElementsByTagName('head')[0].appendChild(script);
 
     infoWindow = new google.maps.InfoWindow();
 
@@ -362,7 +388,7 @@
     });
   }
 
-  window.dataFeed_callback = function (stations, terminals) {
+  window.startMapWithData = function (stations, terminals) {
     var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var results = stations.concat(terminals);
     var marketType = "station";
@@ -378,6 +404,7 @@
     var markerType = "";
     var markerIcon = "";
     var markerLabel = {};
+    var iconOffsetY = {};
 
 
 
@@ -398,9 +425,12 @@
           text: " "
         };
       }else{
+        iconOffsetY = (jacoMap.isOffsetStation(rawMarker.stationId) === true)? -30: -5;
+
+
         markerIcon = {
           url: icon,
-          labelOrigin: new google.maps.Point(50, -5)
+          labelOrigin: new google.maps.Point(50, iconOffsetY)
         };
         markerLabel = {
           text: ""+rawMarker.stationId,

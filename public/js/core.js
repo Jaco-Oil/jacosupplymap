@@ -43,6 +43,7 @@ var JacoOilMap = (function () {
             "PREMIUM 91": "PREMIUM",
             "CLEAR CARB DIESEL 2": "CLEAR CARB DIESEL"
         };
+        var offsetStations = [3366, 3340, 7707, 7775, 8891, 9920, 9925, 9906];
 
         function init() {
             _setElements();
@@ -88,6 +89,10 @@ var JacoOilMap = (function () {
             mapObject = map;
         }
 
+        function isOffsetStation(stationId) {
+            return offsetStations.includes(stationId);
+        }
+
         function setMapAutoComplete(autocomplete) {
             mapAutoComplete = autocomplete;
         }
@@ -107,16 +112,22 @@ var JacoOilMap = (function () {
 
         function filterMarkersByCheckbox(){
             if(matchingLocationsArray.length < 1){
-                return;
+                loadDefaultData();
             }
 
             var isStation = $filterCheckboxStation.is(':checked');
             var isTerminal = $filterCheckboxTerminal.is(':checked');
 
-            if((isStation === false && isTerminal === false) || (isStation === true && isTerminal === true)){
+            if(isStation === true && isTerminal === true){
                 loadDefaultData();
                 isStation = true;
                 isTerminal = true;
+            }
+
+            if(isStation === false && isTerminal === false){
+                loadDefaultData();
+                isStation = false;
+                isTerminal = false;
             }
 
             var matchingLocationsTemp = [];
@@ -526,7 +537,8 @@ var JacoOilMap = (function () {
             setMarkersCluster: setMarkersCluster,
             parseSearchResults: parseSearchResults,
             getCurrentSearchZoomLevel: getCurrentSearchZoomLevel,
-            getProductName: getProductName
+            getProductName: getProductName,
+            isOffsetStation: isOffsetStation
         };
     }
 

@@ -17,51 +17,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.490312"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -84,46 +74,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -146,43 +131,33 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.490312"
-        }, {
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
         }],
         "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}]
+          "price": "2.434500"
+        }]
       }
     }]
   }, {
@@ -204,36 +179,35 @@ dataFeed_callback([{
       "terminalName": "CHICO",
       "supplierId": 4051,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.501702"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.763881"}, {
         "name": "MIDGRADE 89",
-        "price": "0.587202"
-      }, {"name": "PREMIUM 91", "price": "0.672702"}]
+        "price": "1.849381"
+      }, {"name": "PREMIUM 91", "price": "1.934881"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "SACRAMENTO KM",
-          "price": "0.730000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "SACRAMENTO KM",
-          "price": "0.900000"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "JACO FRESNO P_L",
           "carrier_name": "CAL FRESNO",
           "terminal_name": "FRESNO",
-          "price": "0.999254"
-        }, {"name": "IDEMITSU", "carrier_name": "WILLIAMS TANK LINES", "terminal_name": "CHICO", "price": "1.352500"}],
+          "price": "1.658133"
+        }, {
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "CHICO",
+          "price": "2.049500"
+        }],
+        "NOLEAD 1": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "terminal_name": "SACRAMENTO KM",
+          "price": "2.018500"
+        }],
         "PREMIUM 91": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "SACRAMENTO COP",
-          "price": "1.029400"
+          "terminal_name": "SACRAMENTO KM",
+          "price": "2.338500"
         }]
       }
     }]
@@ -256,27 +230,27 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {"name": "MIDGRADE 89", "price": "0.597022"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "MIDGRADE 89", "price": "1.859201"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
+          "price": "2.087500"
         }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -299,46 +273,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -361,46 +330,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.490312"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -423,46 +382,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -485,46 +439,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -547,36 +496,36 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "NOLEAD 1": [{
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
         }],
         "MIDGRADE 89": [{
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "1.100150"
+          "price": "2.752600"
         }],
         "PREMIUM 91": [{
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "1.260050"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "name": "VALERO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -599,41 +548,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -656,24 +600,24 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "PREMIUM 91": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -696,41 +640,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -753,24 +697,24 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "PREMIUM 91": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -793,41 +737,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -850,46 +794,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -912,46 +851,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -974,37 +908,47 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "MIDGRADE 89",
-        "price": "0.557812"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.022671"
+      }, {"name": "PREMIUM 91", "price": "2.085671"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.999254"
-        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "COLTON", "price": "1.402500"}],
+          "price": "1.658133"
+        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}],
+        "NOLEAD 1": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.773701"
+        }, {
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "CAL FRESNO",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }],
         "MIDGRADE 89": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.859201"
+        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.434500"
         }],
         "PREMIUM 91": [{
-          "name": "TESORO",
+          "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }]
+          "price": "1.944701"
+        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}]
       }
     }]
   }, {
@@ -1026,10 +970,10 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "MIDGRADE 89",
-        "price": "0.557812"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}]
+        "price": "2.022671"
+      }, {"name": "PREMIUM 91", "price": "2.085671"}]
     }, {
       "supplierType": "alternative",
       "products": {
@@ -1037,19 +981,19 @@ dataFeed_callback([{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "CARSON",
-          "price": "0.978300"
+          "price": "2.547800"
         }],
         "MIDGRADE 89": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "CARSON",
-          "price": "1.128000"
+          "price": "2.685300"
         }],
         "PREMIUM 91": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LA - LAT",
-          "price": "1.246300"
+          "price": "2.851800"
         }]
       }
     }]
@@ -1072,46 +1016,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -1134,41 +1073,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1191,41 +1130,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
         }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "SAN JOSE",
+          "price": "2.356500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.408000"
         }]
       }
     }]
@@ -1248,41 +1187,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1305,53 +1244,48 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
   }, {
     "id": 30,
     "stationId": 3363,
-    "name": "Caruthers Food & Liquor- HENDERSON RD. - CARUTHERS",
+    "name": "VALLEE FOODS- HENDERSON RD. - CARUTHERS",
     "address": "2290 Tahoe",
     "city": "Caruthers",
     "state": "CA",
@@ -1367,36 +1301,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.087500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1419,36 +1353,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
+          "price": "2.087500"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
         }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "STOCKTON",
-          "price": "1.084800"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1471,36 +1405,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1523,46 +1457,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -1585,41 +1514,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1642,32 +1571,32 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -1690,41 +1619,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "CAL FRESNO", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "APEX OIL",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -1747,41 +1676,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1804,36 +1733,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1856,36 +1785,36 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "NOLEAD 1": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "CARSON",
-          "price": "0.978300"
+          "price": "2.547800"
         }],
         "MIDGRADE 89": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "CARSON",
-          "price": "1.128000"
+          "price": "2.685300"
         }],
         "PREMIUM 91": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LA - LAT",
-          "price": "1.246300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.851800"
         }]
       }
     }]
@@ -1908,41 +1837,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -1965,41 +1894,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
         }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2022,41 +1951,41 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
+        }],
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
         }],
         "MIDGRADE 89": [{
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "1.100150"
+          "name": "VALERO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "CARSON",
+          "price": "2.685300"
         }],
         "PREMIUM 91": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LA - LAT",
-          "price": "1.246300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.851800"
         }]
       }
     }]
@@ -2079,36 +2008,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.087500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2131,36 +2060,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.087500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "PACIFIC TANK LINES",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2183,41 +2112,35 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "MIDGRADE 89",
-        "price": "0.557812"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.022671"
+      }, {"name": "PREMIUM 91", "price": "2.085671"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
         }],
-        "MIDGRADE 89": [{
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "1.100150"
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
         }],
         "PREMIUM 91": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LA - LAT",
-          "price": "1.246300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.851800"
         }]
       }
     }]
@@ -2240,46 +2163,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -2302,41 +2220,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2359,41 +2277,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2416,41 +2334,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2473,41 +2391,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2530,41 +2448,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2587,45 +2505,30 @@ dataFeed_callback([{
       "terminalName": "LAS VEGAS - KM",
       "supplierId": 4225,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511555"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.968355"}, {
         "name": "MIDGRADE 89",
-        "price": "0.558805"
-      }, {"name": "PREMIUM 91", "price": "0.558805"}]
+        "price": "2.012105"
+      }, {"name": "PREMIUM 91", "price": "2.012105"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "JACO PHOENIX",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.484600"
-        }, {
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.520000"
-        }],
+          "price": "1.880000"
+        }, {"name": "JACO PHOENIX", "carrier_name": "DIAMOND TRUCKING", "terminal_name": "PHOENIX", "price": "2.036600"}],
         "MIDGRADE 89": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.750000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.840000"
+          "price": "2.070000"
         }],
         "PREMIUM 91": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.980000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "1.100000"
+          "price": "2.260000"
         }]
       }
     }]
@@ -2648,41 +2551,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2705,41 +2608,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2762,41 +2665,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2819,36 +2722,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2871,41 +2774,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -2928,36 +2831,36 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "MIDGRADE 89",
-        "price": "0.557812"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.022671"
+      }, {"name": "PREMIUM 91", "price": "2.085671"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "NOLEAD 1": [{
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
         }],
         "MIDGRADE 89": [{
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "1.100150"
+          "price": "2.752600"
         }],
         "PREMIUM 91": [{
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "1.260050"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "name": "VALERO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -2980,35 +2883,30 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3031,36 +2929,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3083,41 +2981,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3140,41 +3038,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3197,41 +3095,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3254,36 +3152,36 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "NOLEAD 1": [{
           "name": "VALERO",
           "carrier_name": "PACIFIC TANK LINES",
           "terminal_name": "CARSON",
-          "price": "0.978300"
+          "price": "2.547800"
         }],
         "MIDGRADE 89": [{
           "name": "VALERO",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "CARSON",
-          "price": "1.128000"
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "IMPERIAL",
+          "price": "2.562300"
         }],
         "PREMIUM 91": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LA - LAT",
-          "price": "1.246300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+          "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -3306,32 +3204,32 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -3354,41 +3252,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "price": "2.120000"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
         }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3411,51 +3309,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.490312"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -3477,46 +3365,31 @@ dataFeed_callback([{
       "supplierName": "JACO LAS VEGAS ETHANOL",
       "terminalName": "LAS VEGAS - KM",
       "supplierId": 4225,
-      "carrierName": "PRO PETROLEUM INC",
-      "products": [{"name": "NOLEAD 1", "price": "0.511555"}, {
+      "carrierName": "WHOLESALE FUELS INC.",
+      "products": [{"name": "NOLEAD 1", "price": "1.968355"}, {
         "name": "MIDGRADE 89",
-        "price": "0.558805"
-      }, {"name": "PREMIUM 91", "price": "0.558805"}]
+        "price": "2.012105"
+      }, {"name": "PREMIUM 91", "price": "2.012105"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "JACO PHOENIX",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.484600"
-        }, {
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.520000"
-        }],
+          "price": "1.880000"
+        }, {"name": "JACO PHOENIX", "carrier_name": "DIAMOND TRUCKING", "terminal_name": "PHOENIX", "price": "2.036600"}],
         "MIDGRADE 89": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.750000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.840000"
+          "price": "2.070000"
         }],
         "PREMIUM 91": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.980000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "1.100000"
+          "price": "2.260000"
         }]
       }
     }]
@@ -3539,24 +3412,24 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "PREMIUM 91": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -3579,41 +3452,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3636,42 +3509,51 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
-      "supplierType": "alternative",
-      "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
+      "supplierType": "alternative", "products": {
         "CLEAR CARB DIESEL 2": [{
           "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.999254"
-        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "COLTON", "price": "1.402500"}],
+          "price": "1.658133"
+        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}],
+        "NOLEAD 1": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.773701"
+        }, {
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "CAL FRESNO",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
         "MIDGRADE 89": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.859201"
+        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.434500"
         }],
         "PREMIUM 91": [{
-          "name": "TESORO",
+          "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }]
+          "price": "1.944701"
+        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}]
       }
     }]
   }, {
@@ -3693,7 +3575,7 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
@@ -3701,19 +3583,19 @@ dataFeed_callback([{
           "name": "APEX OIL",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.087500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -3736,36 +3618,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "IDEMITSU",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "SAN JOSE",
-          "price": "0.950000"
-        }],
-        "PREMIUM 91": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "SAN JOSE",
-          "price": "1.084000"
-        }],
         "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "SAN JOSE",
+          "price": "2.356500"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
         }]
       }
     }]
@@ -3788,41 +3670,41 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -3845,36 +3727,36 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "NOLEAD 1": [{
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
+          "price": "2.628750"
         }],
         "MIDGRADE 89": [{
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "1.100150"
+          "price": "2.752600"
         }],
         "PREMIUM 91": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LA - LAT",
-          "price": "1.246300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.851800"
         }]
       }
     }]
@@ -3897,39 +3779,48 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {"name": "PREMIUM 91", "price": "0.625312"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {"name": "PREMIUM 91", "price": "2.085671"}]
     }, {
-      "supplierType": "alternative",
-      "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
+      "supplierType": "alternative", "products": {
         "CLEAR CARB DIESEL 2": [{
           "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.999254"
-        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "COLTON", "price": "1.402500"}],
+          "price": "1.658133"
+        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}],
+        "NOLEAD 1": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.773701"
+        }, {
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "CAL FRESNO",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
         "MIDGRADE 89": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.859201"
+        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.434500"
         }],
         "PREMIUM 91": [{
-          "name": "TESORO",
+          "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }]
+          "price": "1.944701"
+        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}]
       }
     }]
   }, {
@@ -3951,24 +3842,24 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "PREMIUM 91": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -3991,24 +3882,24 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "MIDGRADE 89",
-        "price": "1.088900"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "1.922700"
+      }, {"name": "PREMIUM 91", "price": "2.085671"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "PREMIUM 91": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
+          "price": "2.883900"
         }]
       }
     }]
@@ -4031,42 +3922,51 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "0.490312"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+        "price": "2.085671"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
-      "supplierType": "alternative",
-      "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
+      "supplierType": "alternative", "products": {
         "CLEAR CARB DIESEL 2": [{
           "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "0.999254"
-        }, {"name": "IDEMITSU", "carrier_name": "PACIFIC TANK LINES", "terminal_name": "COLTON", "price": "1.402500"}],
+          "price": "1.658133"
+        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}],
+        "NOLEAD 1": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.773701"
+        }, {
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "PACIFIC TANK LINES",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
+        }, {
+          "name": "PETRO DIAMOND INC.",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "terminal_name": "LONG  BEACH PDI",
+          "price": "2.628750"
+        }],
         "MIDGRADE 89": [{
+          "name": "JACO FRESNO P_L",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "1.859201"
+        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.434500"
         }],
         "PREMIUM 91": [{
-          "name": "TESORO",
+          "name": "JACO FRESNO P_L",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }]
+          "price": "1.944701"
+        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}]
       }
     }]
   }, {
@@ -4088,24 +3988,18 @@ dataFeed_callback([{
       "terminalName": "LAS VEGAS - KM",
       "supplierId": 4225,
       "carrierName": "PRO PETROLEUM INC",
-      "products": [{"name": "NOLEAD 1", "price": "0.511555"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.968355"}, {
         "name": "MIDGRADE 89",
-        "price": "1.115190"
-      }, {"name": "PREMIUM 91", "price": "0.558805"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.115190"}]
+        "price": "1.948990"
+      }, {"name": "PREMIUM 91", "price": "2.012105"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.948990"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "JACO LAS VEGAS P_L",
-          "carrier_name": "PRO PETROLEUM INC",
-          "terminal_name": "LAS VEGAS - KM",
-          "price": "0.427700"
-        }],
         "MIDGRADE 89": [{
           "name": "JACO LAS VEGAS P_L",
           "carrier_name": "PRO PETROLEUM INC",
           "terminal_name": "LAS VEGAS - KM",
-          "price": "0.537455"
+          "price": "1.992505"
         }]
       }
     }]
@@ -4128,35 +4022,35 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
         }]
       }
     }]
@@ -4179,27 +4073,21 @@ dataFeed_callback([{
       "terminalName": "CHICO",
       "supplierId": 4051,
       "carrierName": "WILLIAMS TANK LINES",
-      "products": [{"name": "NOLEAD 1", "price": "0.501702"}, {"name": "PREMIUM 91", "price": "0.672702"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.763881"}, {"name": "PREMIUM 91", "price": "1.934881"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.772500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.937500"
-        }],
         "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "CHICO",
-          "price": "1.352500"
+          "price": "2.049500"
+        }],
+        "NOLEAD 1": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "CHICO",
+          "price": "2.118500"
         }]
       }
     }]
@@ -4222,33 +4110,21 @@ dataFeed_callback([{
       "terminalName": "CHICO",
       "supplierId": 4051,
       "carrierName": "WILLIAMS TANK LINES",
-      "products": [{"name": "NOLEAD 1", "price": "0.501702"}, {"name": "PREMIUM 91", "price": "0.672702"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.763881"}, {"name": "PREMIUM 91", "price": "1.934881"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.772500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.937500"
-        }],
-        "PREMIUM 91": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "1.132500"
-        }],
         "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "CHICO",
-          "price": "1.352500"
+          "price": "2.049500"
+        }],
+        "NOLEAD 1": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "CHICO",
+          "price": "2.118500"
         }]
       }
     }]
@@ -4271,42 +4147,27 @@ dataFeed_callback([{
       "terminalName": "TUCSON",
       "supplierId": 4226,
       "carrierName": "DIAMOND TRUCKING",
-      "products": [{"name": "NOLEAD 1", "price": "0.609930"}, {"name": "PREMIUM 91", "price": "0.632555"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.735800"}, {"name": "PREMIUM 91", "price": "2.080355"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "JACO PHOENIX",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.484600"
-        }, {
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.520000"
-        }, {"name": "ALLIED ENERGY", "carrier_name": "DIAMOND TRUCKING", "terminal_name": "TUCSON", "price": "0.615000"}],
+          "price": "1.880000"
+        }, {"name": "JACO PHOENIX", "carrier_name": "DIAMOND TRUCKING", "terminal_name": "PHOENIX", "price": "2.036600"}],
         "MIDGRADE 89": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.750000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.840000"
+          "price": "2.070000"
         }],
         "PREMIUM 91": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.980000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "1.100000"
+          "price": "2.260000"
         }]
       }
     }]
@@ -4329,42 +4190,27 @@ dataFeed_callback([{
       "terminalName": "TUCSON",
       "supplierId": 4226,
       "carrierName": "DIAMOND TRUCKING",
-      "products": [{"name": "NOLEAD 1", "price": "0.609930"}, {"name": "PREMIUM 91", "price": "0.632555"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.735800"}, {"name": "PREMIUM 91", "price": "2.080355"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "JACO PHOENIX",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.484600"
-        }, {
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.520000"
-        }, {"name": "ALLIED ENERGY", "carrier_name": "DIAMOND TRUCKING", "terminal_name": "TUCSON", "price": "0.615000"}],
+          "price": "1.880000"
+        }, {"name": "JACO PHOENIX", "carrier_name": "DIAMOND TRUCKING", "terminal_name": "PHOENIX", "price": "2.036600"}],
         "MIDGRADE 89": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.750000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "0.840000"
+          "price": "2.070000"
         }],
         "PREMIUM 91": [{
           "name": "HOLLY REFINING",
           "carrier_name": "DIAMOND TRUCKING",
           "terminal_name": "PHOENIX",
-          "price": "0.980000"
-        }, {
-          "name": "WESTERN REFINING",
-          "carrier_name": "DIAMOND TRUCKING",
-          "terminal_name": "PHOENIX",
-          "price": "1.100000"
+          "price": "2.260000"
         }]
       }
     }]
@@ -4387,21 +4233,15 @@ dataFeed_callback([{
       "terminalName": "CHICO",
       "supplierId": 4051,
       "carrierName": "WILLIAMS TANK LINES",
-      "products": [{"name": "NOLEAD 1", "price": "0.501702"}, {"name": "PREMIUM 91", "price": "0.672702"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.763881"}, {"name": "PREMIUM 91", "price": "1.934881"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "CHICO",
-          "price": "0.772500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.937500"
+          "price": "2.118500"
         }]
       }
     }]
@@ -4424,27 +4264,21 @@ dataFeed_callback([{
       "terminalName": "CHICO",
       "supplierId": 4051,
       "carrierName": "WILLIAMS TANK LINES",
-      "products": [{"name": "NOLEAD 1", "price": "0.501702"}, {"name": "PREMIUM 91", "price": "0.672702"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.763881"}, {"name": "PREMIUM 91", "price": "1.934881"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.772500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "terminal_name": "CHICO",
-          "price": "0.937500"
-        }],
         "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "WILLIAMS TANK LINES",
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "CHICO",
-          "price": "1.352500"
+          "price": "2.049500"
+        }],
+        "NOLEAD 1": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "CHICO",
+          "price": "2.118500"
         }]
       }
     }]
@@ -4467,24 +4301,18 @@ dataFeed_callback([{
       "terminalName": "LAS VEGAS - KM",
       "supplierId": 4225,
       "carrierName": "PRO PETROLEUM INC",
-      "products": [{"name": "NOLEAD 1", "price": "0.511555"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.968355"}, {
         "name": "MIDGRADE 89",
-        "price": "1.115190"
-      }, {"name": "PREMIUM 91", "price": "0.558805"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.115190"}]
+        "price": "1.948990"
+      }, {"name": "PREMIUM 91", "price": "2.012105"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.948990"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "JACO LAS VEGAS P_L",
-          "carrier_name": "PRO PETROLEUM INC",
-          "terminal_name": "LAS VEGAS - KM",
-          "price": "0.427700"
-        }],
         "MIDGRADE 89": [{
           "name": "JACO LAS VEGAS P_L",
           "carrier_name": "PRO PETROLEUM INC",
           "terminal_name": "LAS VEGAS - KM",
-          "price": "0.537455"
+          "price": "1.992505"
         }]
       }
     }]
@@ -4507,7 +4335,7 @@ dataFeed_callback([{
       "terminalName": "TUCSON",
       "supplierId": 4226,
       "carrierName": "DIAMOND TRUCKING",
-      "products": [{"name": "NOLEAD 1", "price": "0.609930"}, {"name": "PREMIUM 91", "price": "0.632555"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.735800"}, {"name": "PREMIUM 91", "price": "2.080355"}]
     }, {}]
   }, {
     "id": 92,
@@ -4528,7 +4356,7 @@ dataFeed_callback([{
       "terminalName": "TUCSON",
       "supplierId": 4226,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.609930"}, {"name": "PREMIUM 91", "price": "0.632555"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.735800"}, {"name": "PREMIUM 91", "price": "2.080355"}]
     }, {}]
   }, {
     "id": 93,
@@ -4549,36 +4377,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.859201"
+      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.070000"
+        }],
+        "NOLEAD 1": [{
+          "name": "KERN OIL RACK POSTING",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "KERN, KOR",
+          "price": "2.120000"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -4601,36 +4429,36 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.087500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
+          "price": "2.408000"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.370000"
+          "price": "2.434500"
         }]
       }
     }]
@@ -4653,48 +4481,33 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
+          "name": "APEX OIL",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.087500"
         }, {
           "name": "PETRO DIAMOND INC.",
           "carrier_name": "SOUTHWEST TRAILS",
           "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "price": "2.628750"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}]
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.434500"
+        }]
       }
     }]
   }, {
@@ -4716,36 +4529,28 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {"name": "APEX OIL", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "0.757500"}],
+          "price": "2.087500"
+        }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "SAN JOSE",
+          "price": "2.356500"
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "1.143000"}]
+          "price": "2.408000"
+        }]
       }
     }]
   }, {
@@ -4767,37 +4572,26 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "0.511522"}, {
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+        "price": "1.944701"
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
-      "supplierType": "alternative", "products": {
+      "supplierType": "alternative",
+      "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {
-          "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {"name": "APEX OIL", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.087500"}],
+          "price": "2.087500"
+        }],
         "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "SAN JOSE",
@@ -4805,26 +4599,10 @@ dataFeed_callback([{
         }],
         "PREMIUM 91": [{
           "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.408000"}],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {"name": "IDEMITSU", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.070000"}]
+          "price": "2.408000"
+        }]
       }
     }]
   }, {
@@ -4846,54 +4624,28 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
-        "name": "PREMIUM 91",
-        "price": "1.944701"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {
-          "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "price": "2.087500"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {"name": "APEX OIL", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.087500"}],
+          "price": "2.408000"
+        }],
         "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
           "price": "2.434500"
-        }],
-        "PREMIUM 91": [{
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.408000"}]
+        }]
       }
     }]
   }, {
@@ -4918,67 +4670,34 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
         "price": "1.944701"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {
-        "name": "CLEAR CARB DIESEL 2",
-        "price": "0.999254"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
-      "supplierType": "alternative", "products": {
+      "supplierType": "alternative",
+      "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {
-          "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "price": "2.087500"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {"name": "APEX OIL", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.087500"}],
+          "price": "2.408000"
+        }],
         "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
           "price": "2.434500"
-        }],
-        "PREMIUM 91": [{
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.408000"}],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {"name": "IDEMITSU", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.070000"}]
+        }]
       }
     }]
   }, {
@@ -5003,86 +4722,17 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
         "price": "1.944701"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {
-        "name": "CLEAR CARB DIESEL 2",
-        "price": "0.999254"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
-      "supplierType": "alternative", "products": {
-        "MIDGRADE 89": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.557812"
-        }, {
+      "supplierType": "alternative",
+      "products": {
+        "CLEAR CARB DIESEL 2": [{
           "name": "IDEMITSU",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "SAN JOSE",
-          "price": "0.950000"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "SAN JOSE",
-          "price": "0.950000"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "KAG WEST (BENETO)",
-          "terminal_name": "SAN JOSE",
-          "price": "2.356500"
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
         }],
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "SAN JOSE",
-          "price": "1.084000"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "TITAN TANK LINES",
-          "terminal_name": "SAN JOSE",
-          "price": "1.084000"
-        }, {"name": "TESORO", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "SAN JOSE", "price": "2.365500"}],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
           "name": "APEX OIL",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
@@ -5093,17 +4743,18 @@ dataFeed_callback([{
           "terminal_name": "LONG  BEACH PDI",
           "price": "2.628750"
         }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}]
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "SAN JOSE",
+          "price": "2.356500"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
+          "terminal_name": "SAN JOSE",
+          "price": "2.365500"
+        }]
       }
     }]
   }, {
@@ -5125,13 +4776,7 @@ dataFeed_callback([{
       "terminalName": "COLTON",
       "supplierId": 4052,
       "carrierName": "COX",
-      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
-        "name": "PREMIUM 91",
-        "price": "2.085671"
-      }, {"name": "NOLEAD 1", "price": "0.490312"}, {"name": "PREMIUM 91", "price": "0.625312"}, {
-        "name": "NOLEAD 1",
-        "price": "0.490312"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {"name": "PREMIUM 91", "price": "2.085671"}]
     }, {
       "supplierType": "alternative",
       "products": {
@@ -5139,13 +4784,8 @@ dataFeed_callback([{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }, {
-          "name": "VALERO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.368300"
-        }, {"name": "VALERO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "COLTON", "price": "2.883900"}]
+          "price": "2.883900"
+        }]
       }
     }]
   }, {
@@ -5170,41 +4810,22 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.959671"}, {
         "name": "PREMIUM 91",
         "price": "2.085671"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}, {
-        "name": "NOLEAD 1",
-        "price": "0.490312"
-      }, {"name": "PREMIUM 91", "price": "0.625312"}, {
-        "name": "CLEAR CARB DIESEL 2",
-        "price": "1.088900"
-      }, {"name": "NOLEAD 1", "price": "0.490312"}, {
-        "name": "PREMIUM 91",
-        "price": "0.625312"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.088900"}]
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.922700"}]
     }, {
       "supplierType": "alternative",
       "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "COLTON",
+          "price": "2.278000"
+        }],
         "PREMIUM 91": [{
           "name": "VALERO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "COLTON",
-          "price": "1.368300"
-        }, {
-          "name": "VALERO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.368300"
-        }, {"name": "VALERO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "COLTON", "price": "2.883900"}],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "1.402500"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "COLTON", "price": "2.278000"}]
+          "price": "2.883900"
+        }]
       }
     }]
   }, {
@@ -5226,54 +4847,28 @@ dataFeed_callback([{
       "terminalName": "FRESNO",
       "supplierId": 4050,
       "carrierName": "WHOLESALE FUELS INC.",
-      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
-        "name": "PREMIUM 91",
-        "price": "1.944701"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {"name": "PREMIUM 91", "price": "0.682522"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}]
+      "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
       "supplierType": "alternative",
       "products": {
         "NOLEAD 1": [{
           "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {
-          "name": "APEX OIL",
-          "carrier_name": "SUPERIOR TANK LINES",
+          "price": "2.087500"
+        }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
-          "price": "0.757500"
-        }, {"name": "APEX OIL", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.087500"}],
+          "price": "2.408000"
+        }],
         "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "FRESNO",
           "price": "2.434500"
-        }],
-        "PREMIUM 91": [{
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "KAG WEST (BENETO)", "terminal_name": "FRESNO", "price": "2.408000"}]
+        }]
       }
     }]
   }, {
@@ -5298,63 +4893,23 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "MIDGRADE 89",
         "price": "1.859201"
-      }, {"name": "PREMIUM 91", "price": "1.944701"}, {"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "MIDGRADE 89",
-        "price": "0.597022"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}]
+      }, {"name": "PREMIUM 91", "price": "1.944701"}]
     }, {
-      "supplierType": "alternative", "products": {
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}],
+      "supplierType": "alternative",
+      "products": {
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
           "name": "KERN OIL RACK POSTING",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
           "price": "2.120000"
         }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
         "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
@@ -5384,60 +4939,17 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
         "price": "1.944701"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {
-        "name": "CLEAR CARB DIESEL 2",
-        "price": "0.999254"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
-      "supplierType": "alternative", "products": {
-        "PREMIUM 91": [{
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {
-          "name": "JACO COLTON P_L",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "COLTON",
-          "price": "0.625312"
-        }, {
-          "name": "TESORO",
+      "supplierType": "alternative",
+      "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}],
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "PACIFIC TANK LINES",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
           "name": "KERN OIL RACK POSTING",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
@@ -5448,33 +4960,18 @@ dataFeed_callback([{
           "terminal_name": "LONG  BEACH PDI",
           "price": "2.628750"
         }],
+        "PREMIUM 91": [{
+          "name": "TESORO",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.408000"
+        }],
         "MIDGRADE 89": [{
           "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
           "price": "2.434500"
-        }],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}]
+        }]
       }
     }]
   }, {
@@ -5499,44 +4996,11 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.968355"}, {
         "name": "MIDGRADE 89",
         "price": "1.948990"
-      }, {"name": "PREMIUM 91", "price": "2.012105"}, {
-        "name": "CLEAR CARB DIESEL 2",
-        "price": "1.948990"
-      }, {"name": "NOLEAD 1", "price": "0.511555"}, {"name": "MIDGRADE 89", "price": "1.115190"}, {
-        "name": "PREMIUM 91",
-        "price": "0.558805"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.115190"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511555"
-      }, {"name": "MIDGRADE 89", "price": "1.115190"}, {
-        "name": "PREMIUM 91",
-        "price": "0.558805"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.115190"}]
+      }, {"name": "PREMIUM 91", "price": "2.012105"}, {"name": "CLEAR CARB DIESEL 2", "price": "1.948990"}]
     }, {
       "supplierType": "alternative",
       "products": {
-        "NOLEAD 1": [{
-          "name": "JACO LAS VEGAS P_L",
-          "carrier_name": "PRO PETROLEUM INC",
-          "terminal_name": "LAS VEGAS - KM",
-          "price": "0.427700"
-        }, {
-          "name": "JACO LAS VEGAS P_L",
-          "carrier_name": "PRO PETROLEUM INC",
-          "terminal_name": "LAS VEGAS - KM",
-          "price": "0.427700"
-        }],
         "MIDGRADE 89": [{
-          "name": "JACO LAS VEGAS P_L",
-          "carrier_name": "PRO PETROLEUM INC",
-          "terminal_name": "LAS VEGAS - KM",
-          "price": "0.537455"
-        }, {
-          "name": "JACO LAS VEGAS P_L",
-          "carrier_name": "PRO PETROLEUM INC",
-          "terminal_name": "LAS VEGAS - KM",
-          "price": "0.537455"
-        }, {
           "name": "JACO LAS VEGAS P_L",
           "carrier_name": "PRO PETROLEUM INC",
           "terminal_name": "LAS VEGAS - KM",
@@ -5566,39 +5030,17 @@ dataFeed_callback([{
       "products": [{"name": "NOLEAD 1", "price": "1.773701"}, {
         "name": "PREMIUM 91",
         "price": "1.944701"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}, {
-        "name": "NOLEAD 1",
-        "price": "0.511522"
-      }, {"name": "PREMIUM 91", "price": "0.682522"}, {
-        "name": "CLEAR CARB DIESEL 2",
-        "price": "0.999254"
-      }, {"name": "NOLEAD 1", "price": "0.511522"}, {
-        "name": "PREMIUM 91",
-        "price": "0.682522"
-      }, {"name": "CLEAR CARB DIESEL 2", "price": "0.999254"}]
+      }, {"name": "CLEAR CARB DIESEL 2", "price": "1.658133"}]
     }, {
-      "supplierType": "alternative", "products": {
+      "supplierType": "alternative",
+      "products": {
+        "CLEAR CARB DIESEL 2": [{
+          "name": "IDEMITSU",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "terminal_name": "FRESNO",
+          "price": "2.070000"
+        }],
         "NOLEAD 1": [{
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "KERN OIL RACK POSTING",
-          "carrier_name": "CAL FRESNO",
-          "terminal_name": "KERN, KOR",
-          "price": "0.740000"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
-          "name": "PETRO DIAMOND INC.",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "terminal_name": "LONG  BEACH PDI",
-          "price": "0.940450"
-        }, {
           "name": "KERN OIL RACK POSTING",
           "carrier_name": "KAG WEST (BENETO)",
           "terminal_name": "KERN, KOR",
@@ -5609,44 +5051,18 @@ dataFeed_callback([{
           "terminal_name": "LONG  BEACH PDI",
           "price": "2.628750"
         }],
-        "MIDGRADE 89": [{
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.031500"
-        }, {
-          "name": "CONOCO PHILLIPS",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "2.434500"
-        }],
         "PREMIUM 91": [{
           "name": "TESORO",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {
-          "name": "TESORO",
+          "price": "2.408000"
+        }],
+        "MIDGRADE 89": [{
+          "name": "CONOCO PHILLIPS",
           "carrier_name": "SUPERIOR TANK LINES",
           "terminal_name": "FRESNO",
-          "price": "1.143000"
-        }, {"name": "TESORO", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.408000"}],
-        "CLEAR CARB DIESEL 2": [{
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {
-          "name": "IDEMITSU",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "terminal_name": "FRESNO",
-          "price": "1.370000"
-        }, {"name": "IDEMITSU", "carrier_name": "SUPERIOR TANK LINES", "terminal_name": "FRESNO", "price": "2.070000"}]
+          "price": "2.434500"
+        }]
       }
     }]
   }],
@@ -5657,6 +5073,713 @@ dataFeed_callback([{
     "latitude": "34.060774",
     "longitude": "-117.369864",
     "stores": [{
+      "3331": {
+        "storeId": 3331,
+        "name": "VALERO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "VALERO", "price": "2.883900"}]]
+      },
+      "3339": {
+        "storeId": 3339,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.883900"
+        }]]
+      },
+      "3341": {
+        "storeId": 3341,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.883900"
+        }]]
+      },
+      "3349": {
+        "storeId": 3349,
+        "name": "JACO COLTON P_L",
+        "carrierName": "COX",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }]]
+      },
+      "3350": {
+        "storeId": 3350,
+        "name": "JACO COLTON P_L",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }]]
+      },
+      "5561": {
+        "storeId": 5561,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }]]
+      },
+      "7701": {
+        "storeId": 7701,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }]]
+      },
+      "7704": {
+        "storeId": 7704,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }]]
+      },
+      "7777": {
+        "storeId": 7777,
+        "name": "VALERO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "VALERO", "price": "2.883900"}]]
+      },
+      "7788": {
+        "storeId": 7788,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.883900"
+        }]]
+      },
+      "7796": {
+        "storeId": 7796,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.883900"
+        }]]
+      },
+      "7798": {
+        "storeId": 7798,
+        "name": "JACO COLTON P_L",
+        "carrierName": "COX",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }]]
+      },
+      "8892": {
+        "storeId": 8892,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }]]
+      },
+      "8894": {
+        "storeId": 8894,
+        "name": "JACO COLTON P_L",
+        "carrierName": "COX",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {"name": "PREMIUM 91", "carrier_name": "COX", "supplier_name": "JACO COLTON P_L", "price": "2.085671"}]]
+      },
+      "8896": {
+        "storeId": 8896,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.883900"
+        }]]
+      },
+      "8897": {
+        "storeId": 8897,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.022671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.278000"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.883900"
+        }]]
+      },
+      "9901": {
+        "storeId": 9901,
+        "name": "JACO COLTON P_L",
+        "carrierName": "COX",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.959671"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "2.085671"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO COLTON P_L",
+          "price": "1.922700"
+        }]]
+      },
       "9925": {
         "storeId": 9925,
         "name": "VALERO",
@@ -5691,36 +5814,6 @@ dataFeed_callback([{
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "VALERO",
           "price": "2.883900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
         }]]
       },
       "9926": {
@@ -5772,1185 +5865,6 @@ dataFeed_callback([{
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "VALERO",
           "price": "2.883900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
-        }]]
-      },
-      "9924": {
-        "storeId": 9924,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "9929": {
-        "storeId": 9929,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "9930": {
-        "storeId": 9930,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "2209": {
-        "storeId": 2209,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "2210": {
-        "storeId": 2210,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "2211": {
-        "storeId": 2211,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "2233": {
-        "storeId": 2233,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "2235": {
-        "storeId": 2235,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "2258": {
-        "storeId": 2258,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3326": {
-        "storeId": 3326,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3331": {
-        "storeId": 3331,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "3337": {
-        "storeId": 3337,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3339": {
-        "storeId": 3339,
-        "name": "VALERO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
-        }]]
-      },
-      "3341": {
-        "storeId": 3341,
-        "name": "VALERO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
-        }]]
-      },
-      "3346": {
-        "storeId": 3346,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3347": {
-        "storeId": 3347,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3349": {
-        "storeId": 3349,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "3350": {
-        "storeId": 3350,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3351": {
-        "storeId": 3351,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3362": {
-        "storeId": 3362,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "3367": {
-        "storeId": 3367,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "4451": {
-        "storeId": 4451,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "5561": {
-        "storeId": 5561,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "5565": {
-        "storeId": 5565,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "7701": {
-        "storeId": 7701,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "7704": {
-        "storeId": 7704,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "7705": {
-        "storeId": 7705,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "7777": {
-        "storeId": 7777,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "7779": {
-        "storeId": 7779,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "7788": {
-        "storeId": 7788,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "7792": {
-        "storeId": 7792,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "7794": {
-        "storeId": 7794,
-        "name": "JACO COLTON P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }]]
-      },
-      "7796": {
-        "storeId": 7796,
-        "name": "VALERO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
-        }]]
-      },
-      "7798": {
-        "storeId": 7798,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "8892": {
-        "storeId": 8892,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "8894": {
-        "storeId": 8894,
-        "name": "IDEMITSU",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }]]
-      },
-      "8896": {
-        "storeId": 8896,
-        "name": "VALERO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
-        }]]
-      },
-      "8897": {
-        "storeId": 8897,
-        "name": "VALERO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.368300"
-        }]]
-      },
-      "9901": {
-        "storeId": 9901,
-        "name": "IDEMITSU",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "1.088900"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.490312"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.557812"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "JACO COLTON P_L",
-          "price": "0.625312"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.402500"
         }]]
       }
     }]
@@ -6963,233 +5877,224 @@ dataFeed_callback([{
     "stores": [{
       "2213": {
         "storeId": 2213,
-        "name": "IDEMITSU",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [{
-          "0": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.501702"
-          },
-          "1": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.587202"
-          },
-          "2": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WHOLESALE FUELS INC.",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.672702"
-          },
-          "5": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.672702"
-          },
-          "6": {
-            "name": "CLEAR CARB DIESEL 2",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "1.352500"
-          }
-        }]
-      },
-      "8895": {
-        "storeId": 8895,
-        "name": "JACO CHICO P_L",
-        "carrierName": "WILLIAMS TANK LINES",
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WILLIAMS TANK LINES",
           "supplier_name": "JACO CHICO P_L",
-          "price": "0.501702"
+          "price": "1.763881"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "WILLIAMS TANK LINES",
           "supplier_name": "JACO CHICO P_L",
-          "price": "0.587202"
+          "price": "1.849381"
         }, {
           "name": "PREMIUM 91",
-          "carrier_name": "WILLIAMS TANK LINES",
+          "carrier_name": "WHOLESALE FUELS INC.",
           "supplier_name": "JACO CHICO P_L",
-          "price": "0.672702"
+          "price": "1.934881"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.849381"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.049500"
+        }]]
+      },
+      "8895": {
+        "storeId": 8895,
+        "name": "JACO CHICO P_L",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.849381"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
         }]]
       },
       "9904": {
         "storeId": 9904,
-        "name": "IDEMITSU",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [{
-          "0": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.501702"
-          },
-          "1": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.672702"
-          },
-          "3": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.587202"
-          },
-          "5": {
-            "name": "CLEAR CARB DIESEL 2",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "1.352500"
-          },
-          "6": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.772500"
-          },
-          "7": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.937500"
-          }
-        }]
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.849381"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.049500"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.118500"
+        }]]
       },
       "9905": {
         "storeId": 9905,
-        "name": "IDEMITSU",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [{
-          "0": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.501702"
-          },
-          "1": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.672702"
-          },
-          "3": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.587202"
-          },
-          "5": {
-            "name": "CLEAR CARB DIESEL 2",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "1.352500"
-          },
-          "6": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.772500"
-          },
-          "7": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.937500"
-          },
-          "8": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "1.132500"
-          }
-        }]
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.849381"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.049500"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.118500"
+        }]]
       },
       "9909": {
         "storeId": 9909,
-        "name": "IDEMITSU",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [{
-          "0": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.501702"
-          },
-          "1": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.672702"
-          },
-          "3": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.587202"
-          },
-          "5": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.772500"
-          },
-          "6": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.937500"
-          }
-        }]
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.849381"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.118500"
+        }]]
       },
       "9910": {
         "storeId": 9910,
-        "name": "IDEMITSU",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [{
-          "0": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.501702"
-          },
-          "1": {
-            "name": "PREMIUM 91",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.672702"
-          },
-          "3": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "JACO CHICO P_L",
-            "price": "0.587202"
-          },
-          "5": {
-            "name": "CLEAR CARB DIESEL 2",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "1.352500"
-          },
-          "6": {
-            "name": "NOLEAD 1",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.772500"
-          },
-          "7": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "WILLIAMS TANK LINES",
-            "supplier_name": "IDEMITSU",
-            "price": "0.937500"
-          }
-        }]
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WILLIAMS TANK LINES",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.763881"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.849381"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO CHICO P_L",
+          "price": "1.934881"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.049500"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.118500"
+        }]]
       }
     }]
   }, {
@@ -7199,228 +6104,114 @@ dataFeed_callback([{
     "latitude": "35.296803",
     "longitude": "-118.918428",
     "stores": [{
-      "9929": {
-        "storeId": 9929,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "2.120000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "9930": {
-        "storeId": 9930,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "2.120000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "9933": {
-        "storeId": 9933,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "2.120000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "9919": {
-        "storeId": 9919,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "9924": {
-        "storeId": 9924,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
       "2209": {
         "storeId": 2209,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "2210": {
         "storeId": 2210,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "2211": {
         "storeId": 2211,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "2222": {
-        "storeId": 2222,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "2223": {
-        "storeId": 2223,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "2233": {
         "storeId": 2233,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "2235": {
         "storeId": 2235,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "2258": {
         "storeId": 2258,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3326": {
         "storeId": 3326,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3337": {
         "storeId": 3337,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "3340": {
-        "storeId": 3340,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "3342": {
-        "storeId": 3342,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3346": {
         "storeId": 3346,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3347": {
         "storeId": 3347,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3349": {
@@ -7431,381 +6222,326 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "CAL FRESNO",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3351": {
         "storeId": 3351,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3356": {
         "storeId": 3356,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3360": {
         "storeId": 3360,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "3361": {
-        "storeId": 3361,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3362": {
         "storeId": 3362,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3366": {
         "storeId": 3366,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "3367": {
         "storeId": 3367,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "3368": {
-        "storeId": 3368,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "4451": {
-        "storeId": 4451,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "5559": {
         "storeId": 5559,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "5560": {
         "storeId": 5560,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "5562": {
         "storeId": 5562,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "5565": {
         "storeId": 5565,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7701": {
         "storeId": 7701,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7704": {
         "storeId": 7704,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7705": {
         "storeId": 7705,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7707": {
         "storeId": 7707,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7708": {
         "storeId": 7708,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7721": {
         "storeId": 7721,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7725": {
         "storeId": 7725,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7772": {
         "storeId": 7772,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7773": {
         "storeId": 7773,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7774": {
         "storeId": 7774,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7775": {
         "storeId": 7775,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7776": {
         "storeId": 7776,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7779": {
         "storeId": 7779,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "7780": {
-        "storeId": 7780,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7781": {
         "storeId": 7781,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7782": {
         "storeId": 7782,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7785": {
         "storeId": 7785,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7790": {
         "storeId": 7790,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "CAL FRESNO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7792": {
         "storeId": 7792,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7794": {
         "storeId": 7794,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "7797": {
-        "storeId": 7797,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "7798": {
@@ -7816,18 +6552,7 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "CAL FRESNO",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "8891": {
-        "storeId": 8891,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "8894": {
@@ -7838,7 +6563,7 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "CAL FRESNO",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "9901": {
@@ -7849,29 +6574,70 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "PACIFIC TANK LINES",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
-        }]]
-      },
-      "9903": {
-        "storeId": 9903,
-        "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
         }]]
       },
       "9917": {
         "storeId": 9917,
         "name": "KERN OIL RACK POSTING",
-        "carrierName": "PACIFIC TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
-          "carrier_name": "PACIFIC TANK LINES",
+          "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "KERN OIL RACK POSTING",
-          "price": "0.740000"
+          "price": "2.120000"
+        }]]
+      },
+      "9929": {
+        "storeId": 9929,
+        "name": "KERN OIL RACK POSTING",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "KERN OIL RACK POSTING",
+          "price": "2.120000"
+        }]]
+      },
+      "9930": {
+        "storeId": 9930,
+        "name": "KERN OIL RACK POSTING",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "KERN OIL RACK POSTING",
+          "price": "2.120000"
+        }]]
+      },
+      "9933": {
+        "storeId": 9933,
+        "name": "KERN OIL RACK POSTING",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "KERN OIL RACK POSTING",
+          "price": "2.120000"
+        }]]
+      }
+    }]
+  }, {
+    "id": 6,
+    "terminalId": 1007,
+    "name": "IMPERIAL",
+    "latitude": "32.825543",
+    "longitude": "-115.564933",
+    "stores": [{
+      "7788": {
+        "storeId": 7788,
+        "name": "VALERO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "VALERO",
+          "price": "2.562300"
         }]]
       }
     }]
@@ -7882,8 +6648,53 @@ dataFeed_callback([{
     "latitude": "36.253292",
     "longitude": "-115.045683",
     "stores": [{
-      "9931": {
-        "storeId": 9931, "name": "JACO LAS VEGAS ETHANOL", "carrierName": "PRO PETROLEUM INC", "products": [{
+      "7770": {
+        "storeId": 7770,
+        "name": "JACO LAS VEGAS ETHANOL",
+        "carrierName": "WHOLESALE FUELS INC.",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO LAS VEGAS ETHANOL",
+          "price": "1.968355"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO LAS VEGAS ETHANOL",
+          "price": "2.012105"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO LAS VEGAS ETHANOL",
+          "price": "2.012105"
+        }]]
+      },
+      "7795": {
+        "storeId": 7795,
+        "name": "JACO LAS VEGAS ETHANOL",
+        "carrierName": "WHOLESALE FUELS INC.",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO LAS VEGAS ETHANOL",
+          "price": "1.968355"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO LAS VEGAS ETHANOL",
+          "price": "2.012105"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO LAS VEGAS ETHANOL",
+          "price": "2.012105"
+        }]]
+      },
+      "9902": {
+        "storeId": 9902,
+        "name": "JACO LAS VEGAS ETHANOL",
+        "carrierName": "PRO PETROLEUM INC",
+        "products": [{
           "0": {
             "name": "NOLEAD 1",
             "carrier_name": "PRO PETROLEUM INC",
@@ -7913,158 +6724,82 @@ dataFeed_callback([{
             "carrier_name": "PRO PETROLEUM INC",
             "supplier_name": "JACO LAS VEGAS P_L",
             "price": "1.992505"
-          },
-          "8": {
-            "name": "NOLEAD 1",
-            "carrier_name": "PRO PETROLEUM INC",
-            "supplier_name": "JACO LAS VEGAS ETHANOL",
-            "price": "0.511555"
-          },
-          "9": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "PRO PETROLEUM INC",
-            "supplier_name": "JACO LAS VEGAS ETHANOL",
-            "price": "1.115190"
-          },
-          "10": {
-            "name": "PREMIUM 91",
-            "carrier_name": "PRO PETROLEUM INC",
-            "supplier_name": "JACO LAS VEGAS ETHANOL",
-            "price": "0.558805"
-          },
-          "11": {
-            "name": "CLEAR CARB DIESEL 2",
-            "carrier_name": "PRO PETROLEUM INC",
-            "supplier_name": "JACO LAS VEGAS ETHANOL",
-            "price": "1.115190"
-          },
-          "12": {
-            "name": "NOLEAD 1",
-            "carrier_name": "PRO PETROLEUM INC",
-            "supplier_name": "JACO LAS VEGAS P_L",
-            "price": "0.427700"
-          },
-          "13": {
-            "name": "MIDGRADE 89",
-            "carrier_name": "PRO PETROLEUM INC",
-            "supplier_name": "JACO LAS VEGAS P_L",
-            "price": "0.537455"
           }
         }]
-      },
-      "7770": {
-        "storeId": 7770,
-        "name": "JACO LAS VEGAS ETHANOL",
-        "carrierName": "WHOLESALE FUELS INC.",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.511555"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.558805"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.558805"
-        }]]
-      },
-      "7795": {
-        "storeId": 7795,
-        "name": "JACO LAS VEGAS ETHANOL",
-        "carrierName": "PRO PETROLEUM INC",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.511555"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.558805"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.558805"
-        }]]
-      },
-      "9902": {
-        "storeId": 9902,
-        "name": "JACO LAS VEGAS ETHANOL",
-        "carrierName": "PRO PETROLEUM INC",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.511555"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "1.115190"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.558805"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "1.115190"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS P_L",
-          "price": "0.427700"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS P_L",
-          "price": "0.537455"
-        }]]
       },
       "9911": {
         "storeId": 9911,
         "name": "JACO LAS VEGAS ETHANOL",
         "carrierName": "PRO PETROLEUM INC",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.511555"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "1.115190"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "0.558805"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS ETHANOL",
-          "price": "1.115190"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS P_L",
-          "price": "0.427700"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PRO PETROLEUM INC",
-          "supplier_name": "JACO LAS VEGAS P_L",
-          "price": "0.537455"
-        }]]
+        "products": [{
+          "0": {
+            "name": "NOLEAD 1",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "1.968355"
+          },
+          "1": {
+            "name": "MIDGRADE 89",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "1.948990"
+          },
+          "2": {
+            "name": "PREMIUM 91",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "2.012105"
+          },
+          "3": {
+            "name": "CLEAR CARB DIESEL 2",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "1.948990"
+          },
+          "5": {
+            "name": "MIDGRADE 89",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS P_L",
+            "price": "1.992505"
+          }
+        }]
+      },
+      "9931": {
+        "storeId": 9931,
+        "name": "JACO LAS VEGAS ETHANOL",
+        "carrierName": "PRO PETROLEUM INC",
+        "products": [{
+          "0": {
+            "name": "NOLEAD 1",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "1.968355"
+          },
+          "1": {
+            "name": "MIDGRADE 89",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "1.948990"
+          },
+          "2": {
+            "name": "PREMIUM 91",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "2.012105"
+          },
+          "3": {
+            "name": "CLEAR CARB DIESEL 2",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS ETHANOL",
+            "price": "1.948990"
+          },
+          "5": {
+            "name": "MIDGRADE 89",
+            "carrier_name": "PRO PETROLEUM INC",
+            "supplier_name": "JACO LAS VEGAS P_L",
+            "price": "1.992505"
+          }
+        }]
       }
     }]
   }, {
@@ -8074,6 +6809,101 @@ dataFeed_callback([{
     "latitude": "37.390870",
     "longitude": "-121.912139",
     "stores": [{
+      "2226": {
+        "storeId": 2226,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO SAN JOSE PIPE",
+          "price": "1.752291"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO SAN JOSE PIPE",
+          "price": "1.923291"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.076200"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.065500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.356500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.365500"}]]
+      },
+      "3357": {
+        "storeId": 3357,
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.356500"
+        }]]
+      },
+      "8890": {
+        "storeId": 8890,
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.356500"
+        }]]
+      },
+      "9912": {
+        "storeId": 9912,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO SAN JOSE PIPE",
+          "price": "1.752291"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO SAN JOSE PIPE",
+          "price": "1.923291"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.076200"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "TESORO",
+          "price": "2.065500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.356500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.365500"}]]
+      },
+      "9920": {
+        "storeId": 9920,
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.356500"
+        }]]
+      },
       "9921": {
         "storeId": 9921,
         "name": "CONOCO PHILLIPS",
@@ -8087,117 +6917,14 @@ dataFeed_callback([{
       },
       "9924": {
         "storeId": 9924,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "TITAN TANK LINES",
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "MIDGRADE 89",
           "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "CONOCO PHILLIPS",
           "price": "2.356500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "TESORO",
-          "price": "2.365500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.950000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.084000"
-        }]]
-      },
-      "2226": {
-        "storeId": 2226,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "TITAN TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "JACO SAN JOSE PIPE",
-          "price": "0.490112"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "JACO SAN JOSE PIPE",
-          "price": "0.661112"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.330000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.750000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.950000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.084000"
-        }]]
-      },
-      "8890": {
-        "storeId": 8890,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "TITAN TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.950000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.084000"
-        }]]
-      },
-      "9912": {
-        "storeId": 9912,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "TITAN TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "JACO SAN JOSE PIPE",
-          "price": "0.490112"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "JACO SAN JOSE PIPE",
-          "price": "0.661112"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.330000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.750000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.950000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.084000"
-        }]]
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.365500"}]]
       }
     }]
   }, {
@@ -8215,12 +6942,12 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "VALERO",
-          "price": "0.978300"
+          "price": "2.547800"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "VALERO",
-          "price": "1.128000"
+          "price": "2.685300"
         }]]
       },
       "5561": {
@@ -8231,12 +6958,23 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "VALERO",
-          "price": "0.978300"
+          "price": "2.547800"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "VALERO",
-          "price": "1.128000"
+          "price": "2.685300"
+        }]]
+      },
+      "7701": {
+        "storeId": 7701,
+        "name": "VALERO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "VALERO",
+          "price": "2.685300"
         }]]
       },
       "7788": {
@@ -8247,12 +6985,7 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "PACIFIC TANK LINES",
           "supplier_name": "VALERO",
-          "price": "0.978300"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "VALERO",
-          "price": "1.128000"
+          "price": "2.547800"
         }]]
       }
     }]
@@ -8271,23 +7004,7 @@ dataFeed_callback([{
           "name": "CLEAR CARB DIESEL 2",
           "carrier_name": "WILLIAMS TANK LINES",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.377800"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.084800"
-        }]]
-      },
-      "3365": {
-        "storeId": 3365,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "TITAN TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "TITAN TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.084800"
+          "price": "2.083800"
         }]]
       }
     }]
@@ -8301,7 +7018,7 @@ dataFeed_callback([{
           "name": "PREMIUM 91",
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.246300"
+          "price": "2.851800"
         }]]
       },
       "5561": {
@@ -8312,7 +7029,7 @@ dataFeed_callback([{
           "name": "PREMIUM 91",
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.246300"
+          "price": "2.851800"
         }]]
       },
       "7701": {
@@ -8323,7 +7040,7 @@ dataFeed_callback([{
           "name": "PREMIUM 91",
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.246300"
+          "price": "2.851800"
         }]]
       },
       "7704": {
@@ -8334,18 +7051,7 @@ dataFeed_callback([{
           "name": "PREMIUM 91",
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.246300"
-        }]]
-      },
-      "7788": {
-        "storeId": 7788,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.246300"
+          "price": "2.851800"
         }]]
       },
       "8892": {
@@ -8356,7 +7062,7 @@ dataFeed_callback([{
           "name": "PREMIUM 91",
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.246300"
+          "price": "2.851800"
         }]]
       }
     }]
@@ -8369,146 +7075,106 @@ dataFeed_callback([{
     "stores": [{
       "7770": {
         "storeId": 7770,
-        "name": "WESTERN REFINING",
+        "name": "HOLLY REFINING",
         "carrierName": "DIAMOND TRUCKING",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO PHOENIX",
-          "price": "0.484600"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.750000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.980000"
+          "price": "2.036600"
         }, {
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "HOLLY REFINING",
-          "price": "0.520000"
+          "price": "1.880000"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "0.840000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.070000"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "1.100000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.260000"
         }]]
       },
       "7795": {
         "storeId": 7795,
-        "name": "WESTERN REFINING",
+        "name": "HOLLY REFINING",
         "carrierName": "DIAMOND TRUCKING",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO PHOENIX",
-          "price": "0.484600"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.750000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.980000"
+          "price": "2.036600"
         }, {
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "HOLLY REFINING",
-          "price": "0.520000"
+          "price": "1.880000"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "0.840000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.070000"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "1.100000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.260000"
         }]]
       },
       "9906": {
         "storeId": 9906,
-        "name": "WESTERN REFINING",
+        "name": "HOLLY REFINING",
         "carrierName": "DIAMOND TRUCKING",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO PHOENIX",
-          "price": "0.484600"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.750000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.980000"
+          "price": "2.036600"
         }, {
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "HOLLY REFINING",
-          "price": "0.520000"
+          "price": "1.880000"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "0.840000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.070000"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "1.100000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.260000"
         }]]
       },
       "9907": {
         "storeId": 9907,
-        "name": "WESTERN REFINING",
+        "name": "HOLLY REFINING",
         "carrierName": "DIAMOND TRUCKING",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO PHOENIX",
-          "price": "0.484600"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.750000"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "HOLLY REFINING",
-          "price": "0.980000"
+          "price": "2.036600"
         }, {
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "HOLLY REFINING",
-          "price": "0.520000"
+          "price": "1.880000"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "0.840000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.070000"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "WESTERN REFINING",
-          "price": "1.100000"
+          "supplier_name": "HOLLY REFINING",
+          "price": "2.260000"
         }]]
       }
     }]
@@ -8519,11 +7185,1337 @@ dataFeed_callback([{
     "latitude": "36.675247",
     "longitude": "-119.747942",
     "stores": [{
-      "9921": {
-        "storeId": 9921,
+      "2209": {
+        "storeId": 2209,
         "name": "TESORO",
         "carrierName": "SUPERIOR TANK LINES",
         "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2210": {
+        "storeId": 2210,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2211": {
+        "storeId": 2211,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2213": {
+        "storeId": 2213,
+        "name": "JACO FRESNO P_L",
+        "carrierName": "CAL FRESNO",
+        "products": [[{
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "CAL FRESNO",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }]]
+      },
+      "2222": {
+        "storeId": 2222,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2223": {
+        "storeId": 2223,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2226": {
+        "storeId": 2226,
+        "name": "JACO FRESNO P_L",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }]]
+      },
+      "2228": {
+        "storeId": 2228,
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }]]
+      },
+      "2233": {
+        "storeId": 2233,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2235": {
+        "storeId": 2235,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "2253": {
+        "storeId": 2253,
+        "name": "CONOCO PHILLIPS",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }]]
+      },
+      "2258": {
+        "storeId": 2258,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3326": {
+        "storeId": 3326,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3337": {
+        "storeId": 3337,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3340": {
+        "storeId": 3340,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3342": {
+        "storeId": 3342,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3346": {
+        "storeId": 3346,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3347": {
+        "storeId": 3347,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3349": {
+        "storeId": 3349,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3351": {
+        "storeId": 3351,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3356": {
+        "storeId": 3356,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3357": {
+        "storeId": 3357,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3360": {
+        "storeId": 3360,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3361": {
+        "storeId": 3361,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3362": {
+        "storeId": 3362,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3363": {
+        "storeId": 3363,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3365": {
+        "storeId": 3365,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
           "name": "PREMIUM 91",
           "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "JACO FRESNO P_L",
@@ -8544,71 +8536,2365 @@ dataFeed_callback([{
           "supplier_name": "APEX OIL",
           "price": "2.087500"
         }, {
-          "name": "PREMIUM 91",
+          "name": "MIDGRADE 89",
           "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "TESORO",
-          "price": "2.408000"
-        }, {
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "3366": {
+        "storeId": 3366,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WHOLESALE FUELS INC.",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "WHOLESALE FUELS INC.",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
+          "price": "1.944701"
         }, {
           "name": "CLEAR CARB DIESEL 2",
           "carrier_name": "WHOLESALE FUELS INC.",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
+          "price": "1.658133"
         }, {
           "name": "NOLEAD 1",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
+          "price": "1.773701"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
+          "price": "1.859201"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
+          "price": "1.944701"
         }, {
           "name": "CLEAR CARB DIESEL 2",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
+          "price": "1.658133"
         }, {
           "name": "CLEAR CARB DIESEL 2",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
+          "price": "2.070000"
         }, {
           "name": "MIDGRADE 89",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
+          "price": "2.434500"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "TESORO",
-          "price": "1.143000"
+          "price": "2.408000"
         }]]
+      },
+      "3367": {
+        "storeId": 3367,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3368": {
+        "storeId": 3368,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "3369": {
+        "storeId": 3369,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "4451": {
+        "storeId": 4451,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "5559": {
+        "storeId": 5559,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "5560": {
+        "storeId": 5560,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "5562": {
+        "storeId": 5562,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "5565": {
+        "storeId": 5565,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7702": {
+        "storeId": 7702,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "7703": {
+        "storeId": 7703,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "7705": {
+        "storeId": 7705,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7707": {
+        "storeId": 7707,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7708": {
+        "storeId": 7708,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7721": {
+        "storeId": 7721,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7722": {
+        "storeId": 7722,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "7725": {
+        "storeId": 7725,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7772": {
+        "storeId": 7772,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7773": {
+        "storeId": 7773,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7774": {
+        "storeId": 7774,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7775": {
+        "storeId": 7775,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7776": {
+        "storeId": 7776,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7779": {
+        "storeId": 7779,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "COX",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7780": {
+        "storeId": 7780,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7781": {
+        "storeId": 7781,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7782": {
+        "storeId": 7782,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7785": {
+        "storeId": 7785,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7790": {
+        "storeId": 7790,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7792": {
+        "storeId": 7792,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7794": {
+        "storeId": 7794,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7797": {
+        "storeId": 7797,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "7798": {
+        "storeId": 7798,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "8889": {
+        "storeId": 8889,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "8890": {
+        "storeId": 8890,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "8891": {
+        "storeId": 8891,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "8894": {
+        "storeId": 8894,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "9901": {
+        "storeId": 9901,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "9903": {
+        "storeId": 9903,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "9912": {
+        "storeId": 9912,
+        "name": "JACO FRESNO P_L",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }]]
+      },
+      "9917": {
+        "storeId": 9917,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "9918": {
+        "storeId": 9918,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "9919": {
+        "storeId": 9919,
+        "name": "TESORO",
+        "carrierName": "SUPERIOR TANK LINES",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.434500"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "SUPERIOR TANK LINES",
+          "supplier_name": "TESORO",
+          "price": "2.408000"
+        }]]
+      },
+      "9920": {
+        "storeId": 9920,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
+      },
+      "9921": {
+        "storeId": 9921,
+        "name": "TESORO",
+        "carrierName": "KAG WEST (BENETO)",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "WHOLESALE FUELS INC.",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.773701"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.859201"
+        }, {
+          "name": "PREMIUM 91",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.944701"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "JACO FRESNO P_L",
+          "price": "1.658133"
+        }, {
+          "name": "CLEAR CARB DIESEL 2",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "IDEMITSU",
+          "price": "2.070000"
+        }, {
+          "name": "NOLEAD 1",
+          "carrier_name": "KAG WEST (BENETO)",
+          "supplier_name": "APEX OIL",
+          "price": "2.087500"
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
       },
       "9922": {
         "storeId": 9922,
         "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WHOLESALE FUELS INC.",
@@ -8644,57 +10930,12 @@ dataFeed_callback([{
           "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "CONOCO PHILLIPS",
           "price": "2.434500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "TESORO",
-          "price": "2.408000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
       },
       "9923": {
         "storeId": 9923,
         "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WHOLESALE FUELS INC.",
@@ -8745,71 +10986,11 @@ dataFeed_callback([{
           "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "CONOCO PHILLIPS",
           "price": "2.434500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "TESORO",
-          "price": "2.408000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
       },
       "9924": {
         "storeId": 9924,
-        "name": "IDEMITSU",
+        "name": "APEX OIL",
         "carrierName": "SUPERIOR TANK LINES",
         "products": [[{
           "name": "NOLEAD 1",
@@ -8856,42 +11037,12 @@ dataFeed_callback([{
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "APEX OIL",
           "price": "2.087500"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
         }]]
       },
       "9927": {
         "storeId": 9927,
         "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
+        "carrierName": "KAG WEST (BENETO)",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WHOLESALE FUELS INC.",
@@ -8927,52 +11078,7 @@ dataFeed_callback([{
           "carrier_name": "KAG WEST (BENETO)",
           "supplier_name": "CONOCO PHILLIPS",
           "price": "2.434500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "KAG WEST (BENETO)",
-          "supplier_name": "TESORO",
-          "price": "2.408000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
+        }, {"name": "PREMIUM 91", "carrier_name": "KAG WEST (BENETO)", "supplier_name": "TESORO", "price": "2.408000"}]]
       },
       "9929": {
         "storeId": 9929,
@@ -9018,41 +11124,6 @@ dataFeed_callback([{
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "TESORO",
           "price": "2.408000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
         }]]
       },
       "9930": {
@@ -9109,51 +11180,6 @@ dataFeed_callback([{
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "TESORO",
           "price": "2.408000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
         }]]
       },
       "9933": {
@@ -9210,3411 +11236,6 @@ dataFeed_callback([{
           "carrier_name": "SUPERIOR TANK LINES",
           "supplier_name": "TESORO",
           "price": "2.408000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "9919": {
-        "storeId": 9919,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }]]
-      },
-      "9920": {
-        "storeId": 9920,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2209": {
-        "storeId": 2209,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2210": {
-        "storeId": 2210,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2211": {
-        "storeId": 2211,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2213": {
-        "storeId": 2213,
-        "name": "JACO FRESNO P_L",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }]]
-      },
-      "2222": {
-        "storeId": 2222,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2223": {
-        "storeId": 2223,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2226": {
-        "storeId": 2226,
-        "name": "JACO FRESNO P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }]]
-      },
-      "2228": {
-        "storeId": 2228,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }]]
-      },
-      "2233": {
-        "storeId": 2233,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2235": {
-        "storeId": 2235,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "2253": {
-        "storeId": 2253,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }]]
-      },
-      "2258": {
-        "storeId": 2258,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3326": {
-        "storeId": 3326,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3337": {
-        "storeId": 3337,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3340": {
-        "storeId": 3340,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3342": {
-        "storeId": 3342,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3346": {
-        "storeId": 3346,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3347": {
-        "storeId": 3347,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3349": {
-        "storeId": 3349,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3351": {
-        "storeId": 3351,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3356": {
-        "storeId": 3356,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3357": {
-        "storeId": 3357,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3360": {
-        "storeId": 3360,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3361": {
-        "storeId": 3361,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3362": {
-        "storeId": 3362,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3363": {
-        "storeId": 3363,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3365": {
-        "storeId": 3365,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }]]
-      },
-      "3366": {
-        "storeId": 3366,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3367": {
-        "storeId": 3367,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3368": {
-        "storeId": 3368,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "3369": {
-        "storeId": 3369,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "4451": {
-        "storeId": 4451,
-        "name": "TESORO",
-        "carrierName": "CAL FRESNO",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "CAL FRESNO",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {"name": "PREMIUM 91", "carrier_name": "CAL FRESNO", "supplier_name": "TESORO", "price": "1.143000"}]]
-      },
-      "5559": {
-        "storeId": 5559,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "5560": {
-        "storeId": 5560,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "5562": {
-        "storeId": 5562,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "5565": {
-        "storeId": 5565,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7702": {
-        "storeId": 7702,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7703": {
-        "storeId": 7703,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "PACIFIC TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7705": {
-        "storeId": 7705,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7707": {
-        "storeId": 7707,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7708": {
-        "storeId": 7708,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7721": {
-        "storeId": 7721,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7722": {
-        "storeId": 7722,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7725": {
-        "storeId": 7725,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7772": {
-        "storeId": 7772,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7773": {
-        "storeId": 7773,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7774": {
-        "storeId": 7774,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7775": {
-        "storeId": 7775,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7776": {
-        "storeId": 7776,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7779": {
-        "storeId": 7779,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "COX",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7780": {
-        "storeId": 7780,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7781": {
-        "storeId": 7781,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7782": {
-        "storeId": 7782,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7785": {
-        "storeId": 7785,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7790": {
-        "storeId": 7790,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7792": {
-        "storeId": 7792,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7794": {
-        "storeId": 7794,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7797": {
-        "storeId": 7797,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "7798": {
-        "storeId": 7798,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "8889": {
-        "storeId": 8889,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "8890": {
-        "storeId": 8890,
-        "name": "APEX OIL",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }]]
-      },
-      "8891": {
-        "storeId": 8891,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "8894": {
-        "storeId": 8894,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "9901": {
-        "storeId": 9901,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "9903": {
-        "storeId": 9903,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "9912": {
-        "storeId": 9912,
-        "name": "JACO FRESNO P_L",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }]]
-      },
-      "9917": {
-        "storeId": 9917,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
-        }]]
-      },
-      "9918": {
-        "storeId": 9918,
-        "name": "TESORO",
-        "carrierName": "SUPERIOR TANK LINES",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WHOLESALE FUELS INC.",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.511522"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.597022"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.682522"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "JACO FRESNO P_L",
-          "price": "0.999254"
-        }, {
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "1.370000"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "APEX OIL",
-          "price": "0.757500"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.031500"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SUPERIOR TANK LINES",
-          "supplier_name": "TESORO",
-          "price": "1.143000"
         }]]
       }
     }]
@@ -12627,44 +11248,34 @@ dataFeed_callback([{
     "stores": [{
       "9906": {
         "storeId": 9906,
-        "name": "ALLIED ENERGY",
+        "name": "JACO TUCSON ETHANOL",
         "carrierName": "DIAMOND TRUCKING",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.609930"
+          "price": "1.735800"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.632555"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "ALLIED ENERGY",
-          "price": "0.615000"
+          "price": "2.080355"
         }]]
       },
       "9907": {
         "storeId": 9907,
-        "name": "ALLIED ENERGY",
+        "name": "JACO TUCSON ETHANOL",
         "carrierName": "DIAMOND TRUCKING",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.609930"
+          "price": "1.735800"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.632555"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "DIAMOND TRUCKING",
-          "supplier_name": "ALLIED ENERGY",
-          "price": "0.615000"
+          "price": "2.080355"
         }]]
       },
       "9915": {
@@ -12675,12 +11286,12 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.609930"
+          "price": "1.735800"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.632555"
+          "price": "2.080355"
         }]]
       },
       "9916": {
@@ -12691,12 +11302,12 @@ dataFeed_callback([{
           "name": "NOLEAD 1",
           "carrier_name": "DIAMOND TRUCKING",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.609930"
+          "price": "1.735800"
         }, {
           "name": "PREMIUM 91",
           "carrier_name": "WHOLESALE FUELS INC.",
           "supplier_name": "JACO TUCSON ETHANOL",
-          "price": "0.632555"
+          "price": "2.080355"
         }]]
       }
     }]
@@ -12707,6 +11318,615 @@ dataFeed_callback([{
     "latitude": "33.776688",
     "longitude": "-118.219783",
     "stores": [{
+      "2209": {
+        "storeId": 2209,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "2210": {
+        "storeId": 2210,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "2211": {
+        "storeId": 2211,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "2222": {
+        "storeId": 2222,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "2223": {
+        "storeId": 2223,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "2233": {
+        "storeId": 2233,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "2258": {
+        "storeId": 2258,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3326": {
+        "storeId": 3326,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3331": {
+        "storeId": 3331,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.752600"
+        }]]
+      },
+      "3340": {
+        "storeId": 3340,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3342": {
+        "storeId": 3342,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3346": {
+        "storeId": 3346,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3347": {
+        "storeId": 3347,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3351": {
+        "storeId": 3351,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3356": {
+        "storeId": 3356,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3357": {
+        "storeId": 3357,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3360": {
+        "storeId": 3360,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3361": {
+        "storeId": 3361,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3362": {
+        "storeId": 3362,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3367": {
+        "storeId": 3367,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3368": {
+        "storeId": 3368,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "3369": {
+        "storeId": 3369,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "4451": {
+        "storeId": 4451,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "5559": {
+        "storeId": 5559,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "5562": {
+        "storeId": 5562,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "5565": {
+        "storeId": 5565,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7701": {
+        "storeId": 7701,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7704": {
+        "storeId": 7704,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7705": {
+        "storeId": 7705,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7707": {
+        "storeId": 7707,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7708": {
+        "storeId": 7708,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7721": {
+        "storeId": 7721,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7722": {
+        "storeId": 7722,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7725": {
+        "storeId": 7725,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7772": {
+        "storeId": 7772,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7773": {
+        "storeId": 7773,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7774": {
+        "storeId": 7774,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7776": {
+        "storeId": 7776,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7777": {
+        "storeId": 7777,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.752600"
+        }]]
+      },
+      "7781": {
+        "storeId": 7781,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7782": {
+        "storeId": 7782,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7785": {
+        "storeId": 7785,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7790": {
+        "storeId": 7790,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7792": {
+        "storeId": 7792,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7794": {
+        "storeId": 7794,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7797": {
+        "storeId": 7797,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "7798": {
+        "storeId": 7798,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "8891": {
+        "storeId": 8891,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "8892": {
+        "storeId": 8892,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }, {
+          "name": "MIDGRADE 89",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.752600"
+        }]]
+      },
+      "8894": {
+        "storeId": 8894,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "8897": {
+        "storeId": 8897,
+        "name": "PETRO DIAMOND SPOT DEAL",
+        "carrierName": "COX",
+        "products": [[{
+          "name": "MIDGRADE 89",
+          "carrier_name": "COX",
+          "supplier_name": "PETRO DIAMOND SPOT DEAL",
+          "price": "1.922700"
+        }]]
+      },
+      "9901": {
+        "storeId": 9901,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "9903": {
+        "storeId": 9903,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
+      "9919": {
+        "storeId": 9919,
+        "name": "PETRO DIAMOND INC.",
+        "carrierName": "SOUTHWEST TRAILS",
+        "products": [[{
+          "name": "NOLEAD 1",
+          "carrier_name": "SOUTHWEST TRAILS",
+          "supplier_name": "PETRO DIAMOND INC.",
+          "price": "2.628750"
+        }]]
+      },
       "9924": {
         "storeId": 9924,
         "name": "PETRO DIAMOND INC.",
@@ -12716,11 +11936,6 @@ dataFeed_callback([{
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "PETRO DIAMOND INC.",
           "price": "2.628750"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
         }]]
       },
       "9930": {
@@ -12732,11 +11947,6 @@ dataFeed_callback([{
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "PETRO DIAMOND INC.",
           "price": "2.628750"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
         }]]
       },
       "9933": {
@@ -12748,675 +11958,6 @@ dataFeed_callback([{
           "carrier_name": "SOUTHWEST TRAILS",
           "supplier_name": "PETRO DIAMOND INC.",
           "price": "2.628750"
-        }, {
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "9919": {
-        "storeId": 9919,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2209": {
-        "storeId": 2209,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2210": {
-        "storeId": 2210,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2211": {
-        "storeId": 2211,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2222": {
-        "storeId": 2222,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2223": {
-        "storeId": 2223,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2233": {
-        "storeId": 2233,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "2258": {
-        "storeId": 2258,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3326": {
-        "storeId": 3326,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3331": {
-        "storeId": 3331,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.100150"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.260050"
-        }]]
-      },
-      "3340": {
-        "storeId": 3340,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3342": {
-        "storeId": 3342,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3346": {
-        "storeId": 3346,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3347": {
-        "storeId": 3347,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3351": {
-        "storeId": 3351,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3356": {
-        "storeId": 3356,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3357": {
-        "storeId": 3357,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3360": {
-        "storeId": 3360,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3361": {
-        "storeId": 3361,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3362": {
-        "storeId": 3362,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3367": {
-        "storeId": 3367,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3368": {
-        "storeId": 3368,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "3369": {
-        "storeId": 3369,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "4451": {
-        "storeId": 4451,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "5559": {
-        "storeId": 5559,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "5562": {
-        "storeId": 5562,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "5565": {
-        "storeId": 5565,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7701": {
-        "storeId": 7701,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.100150"
-        }]]
-      },
-      "7704": {
-        "storeId": 7704,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.100150"
-        }]]
-      },
-      "7705": {
-        "storeId": 7705,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7707": {
-        "storeId": 7707,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7708": {
-        "storeId": 7708,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7721": {
-        "storeId": 7721,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7722": {
-        "storeId": 7722,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7725": {
-        "storeId": 7725,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7772": {
-        "storeId": 7772,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7773": {
-        "storeId": 7773,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7774": {
-        "storeId": 7774,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7776": {
-        "storeId": 7776,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7777": {
-        "storeId": 7777,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.100150"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.260050"
-        }]]
-      },
-      "7781": {
-        "storeId": 7781,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7782": {
-        "storeId": 7782,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7785": {
-        "storeId": 7785,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7790": {
-        "storeId": 7790,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7792": {
-        "storeId": 7792,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7794": {
-        "storeId": 7794,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7797": {
-        "storeId": 7797,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "7798": {
-        "storeId": 7798,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "8891": {
-        "storeId": 8891,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "8892": {
-        "storeId": 8892,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }, {
-          "name": "MIDGRADE 89",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "1.100150"
-        }]]
-      },
-      "8894": {
-        "storeId": 8894,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "8897": {
-        "storeId": 8897,
-        "name": "PETRO DIAMOND SPOT DEAL",
-        "carrierName": "COX",
-        "products": [[{
-          "name": "MIDGRADE 89",
-          "carrier_name": "COX",
-          "supplier_name": "PETRO DIAMOND SPOT DEAL",
-          "price": "1.088900"
-        }]]
-      },
-      "9901": {
-        "storeId": 9901,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      },
-      "9903": {
-        "storeId": 9903,
-        "name": "PETRO DIAMOND INC.",
-        "carrierName": "SOUTHWEST TRAILS",
-        "products": [[{
-          "name": "NOLEAD 1",
-          "carrier_name": "SOUTHWEST TRAILS",
-          "supplier_name": "PETRO DIAMOND INC.",
-          "price": "0.940450"
-        }]]
-      }
-    }]
-  }, {
-    "id": 61,
-    "terminalId": 2084,
-    "name": "SACRAMENTO COP",
-    "latitude": "38.566961",
-    "longitude": "-121.514697",
-    "stores": [{
-      "2213": {
-        "storeId": 2213,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [[{
-          "name": "PREMIUM 91",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.029400"
-        }]]
-      },
-      "8895": {
-        "storeId": 8895,
-        "name": "CONOCO PHILLIPS",
-        "carrierName": "WILLIAMS TANK LINES",
-        "products": [[{
-          "name": "CLEAR CARB DIESEL 2",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.393900"
-        }, {
-          "name": "PREMIUM 91",
-          "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "CONOCO PHILLIPS",
-          "price": "1.029400"
         }]]
       }
     }]
@@ -13429,34 +11970,34 @@ dataFeed_callback([{
     "stores": [{
       "2213": {
         "storeId": 2213,
-        "name": "IDEMITSU",
+        "name": "CONOCO PHILLIPS",
         "carrierName": "WILLIAMS TANK LINES",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.730000"
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.018500"
         }, {
-          "name": "MIDGRADE 89",
+          "name": "PREMIUM 91",
           "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.900000"
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.338500"
         }]]
       },
       "8895": {
         "storeId": 8895,
-        "name": "IDEMITSU",
+        "name": "CONOCO PHILLIPS",
         "carrierName": "WILLIAMS TANK LINES",
         "products": [[{
           "name": "NOLEAD 1",
           "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.730000"
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.018500"
         }, {
-          "name": "MIDGRADE 89",
+          "name": "PREMIUM 91",
           "carrier_name": "WILLIAMS TANK LINES",
-          "supplier_name": "IDEMITSU",
-          "price": "0.900000"
+          "supplier_name": "CONOCO PHILLIPS",
+          "price": "2.338500"
         }]]
       }
     }]
