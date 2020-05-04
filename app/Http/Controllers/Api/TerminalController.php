@@ -28,7 +28,7 @@ class TerminalController extends Controller
                     "name" => trim($station->product_alternate_name),
                     "carrier_name" => trim($station->carrier_alternate_name),
                     "supplier_name" => trim($station->alternate_supplier_name),
-                    "price" => $station->net_cost
+                    "price" => round(trim($station->ust_fee) + trim($station->carrier_surcharge_amt)+ trim($station->fuel_tax)+ trim($station->carrier_gas_freight)+ trim($station->effective_price), 5)
                 ];
 
 

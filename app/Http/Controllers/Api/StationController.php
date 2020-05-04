@@ -70,7 +70,7 @@ class StationController extends Controller
                     'name' => trim($row->alternate_supplier_name),
                     'carrier_name' => trim($row->carrier_alternate_name),
                     'terminal_name' => trim($row->alternate_terminal_name),
-                    'price' => trim($row->net_cost)
+                    'price' => round(trim($row->ust_fee) + trim($row->carrier_surcharge_amt)+ trim($row->fuel_tax)+ trim($row->carrier_gas_freight)+ trim($row->effective_price), 5)
                 ];
         }
 
@@ -98,7 +98,7 @@ class StationController extends Controller
             $products[] =
                 [
                     'name' => trim($row->product_alternate_name),
-                    'price' => trim($row->net_cost)
+                    'price' => round(trim($row->ust_fee) + trim($row->carrier_surcharge_amt)+ trim($row->fuel_tax)+ trim($row->carrier_gas_freight)+ trim($row->effective_price), 5)
                 ];
         }
 
