@@ -70,6 +70,16 @@
   margin-top: 10px;
 }
 
+.where-to-buy-map-layout .search-section .top-section .search-filter .search-filter-aerial{
+  display: inline-block;
+  width: 25%;
+  float: right;
+}
+
+.where-to-buy-map-layout .search-section .top-section .search-filter .search-filter-aerial input.filterCheckbox {
+  width: 25%;
+}
+
 .where-to-buy-map-layout .search-section .top-section .search-filter input.filterCheckbox {
   width: 5%;
   padding-top: -10px;
@@ -129,7 +139,7 @@
 }
 
 .where-to-buy-map-layout .search-section .search-results-line .search-filter {
-  width: 40%;
+  width: 70%;
   float: right;
   text-align: right;
 }

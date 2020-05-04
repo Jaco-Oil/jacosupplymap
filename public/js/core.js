@@ -12,6 +12,7 @@ var JacoOilMap = (function () {
         var $infoWindowTerminalDropdown;
         var $filterCheckboxStation;
         var $filterCheckboxTerminal;
+        var $filterCheckboxAerial;
         var $resultsList;
         var $resultsLabel;
         var $resultsListContainer;
@@ -37,6 +38,8 @@ var JacoOilMap = (function () {
         var mapSearchDistance = 100;
         var cookieName = "jacoSearch";
         var currentSearchZoomLevel = 10;
+        var aerialDataArray = [];
+        var aerialMapFeatures = [];
         var productsMapping = {
             "NOLEAD 1": "NOLEAD",
             "MIDGRADE 89": "MIDGRADE",
@@ -89,6 +92,10 @@ var JacoOilMap = (function () {
             mapObject = map;
         }
 
+        function setAerialData(aerialData) {
+            aerialDataArray.push(aerialData);
+        }
+
         function isOffsetStation(stationId) {
             return offsetStations.includes(stationId);
         }
@@ -107,6 +114,39 @@ var JacoOilMap = (function () {
                 _updateSearchListResults();
             }else {
                 _getListOfMatchingLocations(lat, lng)
+            }
+        }
+
+        function toggleAerialOverlay(){
+            var showOverlay = $filterCheckboxAerial.is(':checked');
+            if(showOverlay === true){
+                if(aerialDataArray.length > 0){
+                    var tempData = {};
+                    aerialMapFeatures = [];
+                    for(var i = 0; i < aerialDataArray.length; i++){
+                        tempData = mapObject.data.addGeoJson(aerialDataArray[i]);
+                        aerialMapFeatures.push(tempData);
+                    }
+                }
+
+                mapObject.data.addListener('click', function(event) {
+                    var feat = event.feature;
+                    var html = "<b>"+feat.getProperty('Name')+"</b><br>"+feat.getProperty('description');
+                    // html += "<br><a class='normal_link' target='_blank' href='"+feat.getProperty('link')+"'>link</a>";
+                    mapInfoWindowObject.setContent(html);
+                    mapInfoWindowObject.setPosition(event.latLng);
+                    mapInfoWindowObject.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+                    mapInfoWindowObject.open(mapObject);
+                });
+
+            }else{
+                if(aerialMapFeatures.length > 0) {
+                    for (var i = 0; i < 15; i++) {
+                    // for (var i = 0; i < 19; i++) {
+                        mapObject.data.remove(mapObject.data.getFeatureById(i+""));
+                    }
+                    aerialMapFeatures = [];
+                }
             }
         }
 
@@ -383,6 +423,7 @@ var JacoOilMap = (function () {
             // $infoWindowTerminalDropdown = $(".map-section .info-window-terminals-list");
             $filterCheckboxStation = $(".search-map-container #stationFilter");
             $filterCheckboxTerminal = $(".search-map-container #terminalFilter");
+            $filterCheckboxAerial = $(".search-map-container #aerialFilter");
             $filterCheckboxStation.prop("checked", true);
             $filterCheckboxTerminal.prop("checked", true);
         }
@@ -522,6 +563,11 @@ var JacoOilMap = (function () {
             $filterCheckboxTerminal.on("change", function(){
                 filterMarkersByCheckbox();
             });
+
+            $filterCheckboxAerial.on("change", function(){
+                toggleAerialOverlay();
+            });
+
         }
 
         return {
@@ -532,6 +578,7 @@ var JacoOilMap = (function () {
             setMapAutoComplete: setMapAutoComplete,
             setMapInfoWindow: setMapInfoWindow,
             setMarkers: setMarkers,
+            setAerialData: setAerialData,
             setMapObject: setMapObject,
             setMarkersRawData: setMarkersRawData,
             setMarkersCluster: setMarkersCluster,

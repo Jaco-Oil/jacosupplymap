@@ -32,6 +32,9 @@
                 <select class="filterSelect" type="checkbox" value="Terminal" id="stationsListFilter" data-placeholder="Station #">
                     <option value="">Station #</option>
                 </select>
+                <div class="search-filter-aerial">
+                    <label for="aerialFilter">Aerial overlay</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Aerial" id="aerialFilter">
+                </div>
             </div>
             <div class="search-results-line clearfix">
               <div class="search-result">0 results found</div>
@@ -179,6 +182,24 @@
     });
     autocompleteService = new google.maps.places.AutocompleteService();
     placeService = new google.maps.places.PlacesService(map);
+
+    map.data.setStyle({
+      fillColor: 'green',
+      strokeWeight: 1,
+      clickable: true
+    });
+
+    // map.data.loadGeoJson('boundaries.geojson');
+    // map.data.loadGeoJson('airBasinos.geojson');
+
+    $.getJSON('airBasinos.geojson', function (data) {
+      jacoMap.setAerialData(data);
+    });
+
+    // $.getJSON('boundaries.geojson', function (data) {
+    //   jacoMap.setAerialData(data);
+    // });
+
 
     var noPoi = [
       {
