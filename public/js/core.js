@@ -31,10 +31,12 @@ var JacoOilMap = (function () {
         var markersArray = [];
         var markersRawArray = [];
         var matchingLocationsArray = [];
+        var searchLocationsArray = [];
         var mapObject = null;
         var mapInfoWindowObject = null;
         var markersCluster = null;
         var mapAutoComplete = null;
+        var hasSearchResults = false;
         var mapSearchDistance = 100;
         var cookieName = "jacoSearch";
         var currentSearchZoomLevel = 10;
@@ -94,6 +96,7 @@ var JacoOilMap = (function () {
 
         function setAerialData(aerialData) {
             aerialDataArray.push(aerialData);
+            toggleAerialOverlay();
         }
 
         function isOffsetStation(stationId) {
@@ -110,6 +113,8 @@ var JacoOilMap = (function () {
 
         function parseSearchResults(lat, lng, resetResults) {
             if(typeof resetResults !== "undefined" && resetResults === true){
+                searchLocationsArray = [];
+                hasSearchResults = false;
                 loadDefaultData();
                 _updateSearchListResults();
             }else {
@@ -141,8 +146,8 @@ var JacoOilMap = (function () {
 
             }else{
                 if(aerialMapFeatures.length > 0) {
-                    for (var i = 0; i < 15; i++) {
-                    // for (var i = 0; i < 19; i++) {
+                    // for (var i = 0; i < 15; i++) {
+                    for (var i = 0; i < 19; i++) {
                         mapObject.data.remove(mapObject.data.getFeatureById(i+""));
                     }
                     aerialMapFeatures = [];
@@ -159,15 +164,23 @@ var JacoOilMap = (function () {
             var isTerminal = $filterCheckboxTerminal.is(':checked');
 
             if(isStation === true && isTerminal === true){
-                loadDefaultData();
+                if(hasSearchResults === false) {
+                    loadDefaultData();
+                }
                 isStation = true;
                 isTerminal = true;
             }
 
             if(isStation === false && isTerminal === false){
-                loadDefaultData();
-                isStation = false;
-                isTerminal = false;
+                if(hasSearchResults === false) {
+                    loadDefaultData();
+                    isStation = false;
+                    isTerminal = false;
+                }
+            }
+
+            if(hasSearchResults === true){
+                matchingLocationsArray = searchLocationsArray.slice();
             }
 
             var matchingLocationsTemp = [];
@@ -262,8 +275,23 @@ var JacoOilMap = (function () {
                     return parseFloat(a.distance) - parseFloat(b.distance);
                 });
 
+                searchLocationsArray = matchingLocationsArray.slice();
                 currentSearchZoomLevel = radiusToZoom(parseFloat(matchingLocationsArray[0].distance));
+                hasSearchResults = true;
+                matchingLocationsArray = [];
+
+                var isStation = $filterCheckboxStation.is(':checked');
+                var isTerminal = $filterCheckboxTerminal.is(':checked');
+
+                for(var i = 0; i < searchLocationsArray.length; i++){
+                    if((isStation === true && searchLocationsArray[i].isStation === true) || (isTerminal === true && searchLocationsArray[i].isTerminal === true)){
+                        matchingLocationsArray.push(searchLocationsArray[i]);
+                    }
+                }
+
             }else{
+                hasSearchResults = false;
+                searchLocationsArray = [];
                 currentSearchZoomLevel = 10;
             }
 
@@ -426,6 +454,7 @@ var JacoOilMap = (function () {
             $filterCheckboxAerial = $(".search-map-container #aerialFilter");
             $filterCheckboxStation.prop("checked", true);
             $filterCheckboxTerminal.prop("checked", true);
+            $filterCheckboxAerial.prop("checked", true);
         }
 
         function _setDefaults() {
