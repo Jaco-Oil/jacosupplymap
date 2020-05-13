@@ -66,7 +66,8 @@ class importData extends Command
     private function importBestBuy()
     {
 //        $best_buy_tmp = BestBuyImport::where('effectiveDate', '2020-04-28')->get();
-        $best_buy_tmp = BestBuyImport::where('effectiveDate', 'cast(getDate() as Date')->get();
+//        $best_buy_tmp = BestBuyImport::where('effectiveDate', 'cast(getDate() as Date')->get();
+        $best_buy_tmp = BestBuyImport::get();
 
         if ($best_buy_tmp->count()) {
             $best_buy = BestBuy::truncate();
