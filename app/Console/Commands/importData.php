@@ -150,8 +150,8 @@ class importData extends Command
                 $terminal = new Terminal();
                 $terminal->inner_id = $row->TerminalID;
                 $terminal->name = $this->trim($row->TerminalName);
-                $terminal->latitude = $row->term_Latitude;
-                $terminal->longitude = $row->term_Longitude;
+//                $terminal->latitude = $row->term_Latitude;
+//                $terminal->longitude = $row->term_Longitude;
                 $terminal->type_id = $row->terminalTypeID;
                 $terminal->address1 = $this->trim($row->Address1);
                 $terminal->address2 = $this->trim($row->Address2);

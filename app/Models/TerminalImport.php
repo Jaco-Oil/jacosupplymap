@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class TerminalImport extends Model
 {
     protected $connection = 'sqlsrv';
-    protected $table='wfifuel.bbm.vBestBuyMapTerminal';
+    protected $table='wfifuel.dbo.vw_WF_Terminal';
+//    protected $table='wfifuel.bbm.vBestBuyMapTerminal';
 }

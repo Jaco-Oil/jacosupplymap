@@ -37,6 +37,7 @@ class StationController extends Controller
                 $data[] = [
                     'id' => $station->id,
                     'stationId' => $station->inner_id,
+                    'ownership' => $station->ownership_name,
                     'name' => $station->name,
                     'address' => $station->address,
                     'city' => $station->city,
