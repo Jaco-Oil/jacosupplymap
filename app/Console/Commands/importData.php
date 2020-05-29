@@ -147,28 +147,23 @@ class importData extends Command
         if ($terminals_tmp->count()) {
 //            $terminals = Terminal::truncate();
             foreach ($terminals_tmp as $row) {
-                $terminal = Terminal::where('inner_id', $row->TerminalID)->get();
-
-                if (!$terminal->count()) {
-                    $terminal = new Terminal();
-                    $terminal->inner_id = $row->TerminalID;
-                    // $terminal->longitude = $row->term_Longitude;
-                    // $terminal->latitude = $row->term_Latitude;
-                }
-
-                $terminal->name = $this->trim($row->TerminalName);
-                $terminal->type_id = $row->terminalTypeID;
-                $terminal->address1 = $this->trim($row->Address1);
-                $terminal->address2 = $this->trim($row->Address2);
-                $terminal->city = $this->trim($row->City);
-                $terminal->county = $this->trim($row->County);
-                $terminal->state = $row->State;
-                $terminal->zip_code = $row->ZipCode;
-                $terminal->website = $row->terminalWebsite;
-                $terminal->cadec_terminal_id = $row->CadecTerminalID;
-                $terminal->cadec_group_key = $row->CadecGroupKey;
-                $terminal->status = $row->terminalStatus;
-                $terminal->save();
+                $terminal = Terminal::updateOrCreate(
+                  ['inner_id', $row->TerminalID],
+                  [
+                    'name' => $this->trim($row->TerminalName),
+                    'type_id' => $row->terminalTypeID,
+                    'address1' => $this->trim($row->Address1),
+                    'address2' => $this->trim($row->Address2),
+                    'city' => $this->trim($row->City),
+                    'county' => $this->trim($row->County),
+                    'state' => $row->State,
+                    'zip_code' => $row->ZipCode,
+                    'website' => $row->terminalWebsite,
+                    'cadec_terminal_id' => $row->CadecTerminalID,
+                    'cadec_group_key' => $row->CadecGroupKey,
+                    'status' => $row->terminalStatus
+                  ]
+                );
             }
         }
     }
