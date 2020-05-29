@@ -145,13 +145,18 @@ class importData extends Command
         $terminals_tmp = TerminalImport::where('EntityName', 'JACO')->get();
 
         if ($terminals_tmp->count()) {
-            $terminals = Terminal::truncate();
+//            $terminals = Terminal::truncate();
             foreach ($terminals_tmp as $row) {
-                $terminal = new Terminal();
-                $terminal->inner_id = $row->TerminalID;
+                $terminal = Terminal::where('inner_id', $row->TerminalID)->get();
+
+                if (!$terminal->count()) {
+                    $terminal = new Terminal();
+                    $terminal->inner_id = $row->TerminalID;
+                    // $terminal->longitude = $row->term_Longitude;
+                    // $terminal->latitude = $row->term_Latitude;
+                }
+
                 $terminal->name = $this->trim($row->TerminalName);
-//                $terminal->latitude = $row->term_Latitude;
-//                $terminal->longitude = $row->term_Longitude;
                 $terminal->type_id = $row->terminalTypeID;
                 $terminal->address1 = $this->trim($row->Address1);
                 $terminal->address2 = $this->trim($row->Address2);
@@ -161,6 +166,7 @@ class importData extends Command
                 $terminal->zip_code = $row->ZipCode;
                 $terminal->website = $row->terminalWebsite;
                 $terminal->cadec_terminal_id = $row->CadecTerminalID;
+                $terminal->cadec_group_key = $row->CadecGroupKey;
                 $terminal->status = $row->terminalStatus;
                 $terminal->save();
             }
