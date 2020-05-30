@@ -142,13 +142,13 @@ class importData extends Command
 
     private function importTerminal()
     {
-        $terminals_tmp = TerminalImport::where('EntityName', 'JACO')->get();
+        $terminals_tmp = TerminalImport::all();
 
         if ($terminals_tmp->count()) {
 //            $terminals = Terminal::truncate();
             foreach ($terminals_tmp as $row) {
                 $terminal = Terminal::updateOrCreate(
-                  ['inner_id', $row->TerminalID],
+                  ['inner_id' => $row->TerminalID],
                   [
                     'name' => $this->trim($row->TerminalName),
                     'type_id' => $row->terminalTypeID,
