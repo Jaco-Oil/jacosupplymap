@@ -18,6 +18,7 @@ class TerminalController extends Controller
 
 //        $terminals = Terminal::whereInnerId('1003')->with('bestBuy')->get();
         $terminals = Terminal::whereTypeId('1')->with('bestBuy')->get();
+//        $terminals = Terminal::whereTypeId('1')->get();
 
 
         foreach ($terminals as $terminal) {
@@ -54,6 +55,15 @@ class TerminalController extends Controller
                         $_station
                     ]
                 ];
+            }else{
+                $data[] = [
+                    'id' => $terminal->id,
+                    'terminalId' => $terminal->inner_id,
+                    'name' => trim($terminal->name),
+                    'latitude' => $terminal->latitude,
+                    'longitude' => $terminal->longitude,
+                    'stores' => []];
+
             }
 
             unset($_station);
@@ -62,6 +72,7 @@ class TerminalController extends Controller
             $data = self::multyarray_unique($data);
 
         }
+
         return response()->json($data);
     }
 
