@@ -13,6 +13,7 @@ var JacoOilMap = (function () {
         var $filterCheckboxStation;
         var $filterCheckboxTerminal;
         var $filterCheckboxAerial;
+        var $filterCheckboxPipeline;
         var $resultsList;
         var $resultsLabel;
         var $resultsListContainer;
@@ -41,7 +42,9 @@ var JacoOilMap = (function () {
         var cookieName = "jacoSearch";
         var currentSearchZoomLevel = 10;
         var aerialDataArray = [];
+        var pipelineDataArray = [];
         var aerialMapFeatures = [];
+        var pipelineMapFeatures = [];
         var productsMapping = {
             "NOLEAD 1": "NOLEAD",
             "MIDGRADE 89": "MIDGRADE",
@@ -99,6 +102,11 @@ var JacoOilMap = (function () {
             toggleAerialOverlay();
         }
 
+        function setPipelineData(aerialData) {
+            pipelineDataArray.push(aerialData);
+            togglePipelineOverlay();
+        }
+
         function isOffsetStation(stationId) {
             return offsetStations.includes(stationId);
         }
@@ -151,6 +159,52 @@ var JacoOilMap = (function () {
                         mapObject.data.remove(mapObject.data.getFeatureById(i+""));
                     }
                     aerialMapFeatures = [];
+                }
+            }
+        }
+
+        function togglePipelineOverlay(){
+            var showOverlay = $filterCheckboxPipeline.is(':checked');
+            if(showOverlay === true){
+                if(pipelineDataArray.length > 0){
+                    var tempData = {};
+                    pipelineMapFeatures = [];
+                    for(var i = 0; i < pipelineDataArray.length; i++){
+                        tempData = mapObject.data.addGeoJson(pipelineDataArray[i]);
+                        pipelineMapFeatures.push(tempData);
+
+                        for (var i = 0, length = tempData.length; i < length; i++) {
+                            var feature = tempData[i];
+                            if (feature.getProperty('icon')) {
+                                mapObject.data.setStyle(function(feature) {
+                                    return {
+                                        fillColor: 'green',
+                                        strokeWeight: 1,
+                                        clickable: true,
+                                        icon: "images/pipeline.png"
+                                    };
+                                });
+                            }
+                        }
+                    }
+                }
+
+                mapObject.data.addListener('click', function(event) {
+                    var feat = event.feature;
+                    var html = "<b>"+feat.getProperty('Name')+"</b>";
+                    // html += "<br><a class='normal_link' target='_blank' href='"+feat.getProperty('link')+"'>link</a>";
+                    mapInfoWindowObject.setContent(html);
+                    mapInfoWindowObject.setPosition(event.latLng);
+                    mapInfoWindowObject.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+                    mapInfoWindowObject.open(mapObject);
+                });
+
+            }else{
+                if(pipelineMapFeatures.length > 0) {
+                    for (var i = 19; i < 64; i++) {
+                        mapObject.data.remove(mapObject.data.getFeatureById(i+""));
+                    }
+                    pipelineMapFeatures = [];
                 }
             }
         }
@@ -452,9 +506,11 @@ var JacoOilMap = (function () {
             $filterCheckboxStation = $(".search-map-container #stationFilter");
             $filterCheckboxTerminal = $(".search-map-container #terminalFilter");
             $filterCheckboxAerial = $(".search-map-container #aerialFilter");
+            $filterCheckboxPipeline = $(".search-map-container #pipelineFilter");
             $filterCheckboxStation.prop("checked", true);
             $filterCheckboxTerminal.prop("checked", true);
             $filterCheckboxAerial.prop("checked", true);
+            $filterCheckboxPipeline.prop("checked", false);
         }
 
         function _setDefaults() {
@@ -597,6 +653,10 @@ var JacoOilMap = (function () {
                 toggleAerialOverlay();
             });
 
+            $filterCheckboxPipeline.on("change", function(){
+                togglePipelineOverlay();
+            });
+
         }
 
         return {
@@ -608,6 +668,7 @@ var JacoOilMap = (function () {
             setMapInfoWindow: setMapInfoWindow,
             setMarkers: setMarkers,
             setAerialData: setAerialData,
+            setPipelineData: setPipelineData,
             setMapObject: setMapObject,
             setMarkersRawData: setMarkersRawData,
             setMarkersCluster: setMarkersCluster,

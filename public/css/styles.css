@@ -41,7 +41,6 @@
 .where-to-buy-map-layout .search-section .top-section {
   padding: 15px;
   border-bottom: 1px solid #ececec;
-  height: 150px;
 }
 
 .where-to-buy-map-layout .search-section .top-section .search-title {
@@ -127,7 +126,7 @@
 }
 
 .where-to-buy-map-layout .search-section .search-results-line {
-  margin-top: 15px;
+  margin: 10px 0 20px 0;
 }
 
 .where-to-buy-map-layout .search-section .search-results-line .search-result {
@@ -145,6 +144,7 @@
 }
 
 .where-to-buy-map-layout .search-section .results-section {
+  display: inline-block;
 }
 
 .where-to-buy-map-layout .search-section .start-search {

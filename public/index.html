@@ -26,16 +26,18 @@
               <span class="search-input-go-button" id="searchInputGoButton">GO</span>
             </div>
             <div class="search-filter clearfix">
-              <label for="stationFilter">Station</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Station" id="stationFilter">&nbsp;&nbsp;&nbsp;
+                <label for="stationFilter">Station</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Station" id="stationFilter">&nbsp;&nbsp;&nbsp;
                 <label for="terminalFilter">Terminal</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Terminal" id="terminalFilter">&nbsp;&nbsp;&nbsp;
-                <label for="aerialFilter">California Air Basins</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Aerial" id="aerialFilter">
                 <label for="stationsListFilter">&nbsp;</label>&nbsp;
                 <select class="filterSelect" type="checkbox" value="Terminal" id="stationsListFilter" data-placeholder="Station #">
                     <option value="">Station #</option>
                 </select>
-
             </div>
-            <div class="search-results-line clearfix">
+            <div class="search-filter clearfix">
+              <label for="aerialFilter">California Air Basins</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="Aerial" id="aerialFilter">
+              <label for="pipelineFilter">KM Pacific Region</label>&nbsp;<input class="filterCheckbox" type="checkbox" value="KM Pacific Region" id="pipelineFilter">
+            </div>
+            <div class="search-results-line">
               <div class="search-result">0 results found</div>
             </div>
           </div>
@@ -193,6 +195,10 @@
 
     $.getJSON('airBasinos.geojson', function (data) {
       jacoMap.setAerialData(data);
+    });
+
+    $.getJSON('kmPacificRegion.json', function (data) {
+      jacoMap.setPipelineData(data);
     });
 
     // $.getJSON('boundaries.geojson', function (data) {
