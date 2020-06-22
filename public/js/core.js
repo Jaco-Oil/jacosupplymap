@@ -181,7 +181,7 @@ var JacoOilMap = (function () {
                                         fillColor: 'green',
                                         strokeWeight: 1,
                                         clickable: true,
-                                        icon: "images/pipeline.png"
+                                        icon: "images/factory-pin.png"
                                     };
                                 });
                             }
@@ -407,14 +407,27 @@ var JacoOilMap = (function () {
         function _renderResultsInList() {
             $resultsList.html("");
 
+            for(var i = 0; i < markersArray.length; i++) {
+                markersArray[i].setVisible(false);
+            }
+            markersCluster.clearMarkers();
+
             if(matchingLocationsArray.length > 0) {
                 for (var i = 0; i < matchingLocationsArray.length; i++) {
                     if(matchingLocationsArray[i].visible = true){
                         var itemId =  (typeof matchingLocationsArray[i].stationId !== "undefined")? matchingLocationsArray[i].stationId: matchingLocationsArray[i].terminalId;
                         var $singleResultItem = _generateSingleResultItem(matchingLocationsArray[i], itemId);
                         $singleResultItem.appendTo($resultsList);
+                        var locationMaker = markersArray.find(function(elem){
+                            return elem.resultsId == itemId;
+                        });
+                        if(typeof locationMaker !== "undefined"){
+                            locationMaker.setVisible(true);
+                        }
                     }
                 }
+
+                markersCluster.addMarkers(markersArray);
             }
 
             if ($resultsList.children("li").length > 0) {
@@ -424,6 +437,7 @@ var JacoOilMap = (function () {
                 $resultsList.hide();
                 $resultsStartSearch.show();
             }
+
         }
 
         function _generateSingleResultItem(locationDetails, id) {
