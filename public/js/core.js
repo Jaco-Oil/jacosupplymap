@@ -51,7 +51,7 @@ var JacoOilMap = (function () {
             "PREMIUM 91": "PREMIUM",
             "CLEAR CARB DIESEL 2": "CLEAR CARB DIESEL"
         };
-        var offsetStations = [3366, 3340, 7707, 7775, 8891, 9920, 9925, 9906, 5560, 8890, 7781, 9922, 9910];
+        var offsetStations = [3366, 3340, 7707, 7775, 8891, 9920, 9925, 9906, 5560, 8890, 7721, 9922, 9910];
 
         function init() {
             _setElements();
