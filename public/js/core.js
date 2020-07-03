@@ -178,7 +178,7 @@ var JacoOilMap = (function () {
                             if (feature.getProperty('icon')) {
                                 mapObject.data.setStyle(function(feature) {
                                     return {
-                                        fillColor: 'orange',
+                                        fillColor: 'blue',
                                         fillOpacity: 0.2,
                                         strokeWeight: 1,
                                         clickable: true,
