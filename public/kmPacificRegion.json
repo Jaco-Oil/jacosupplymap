@@ -3,7 +3,7 @@
 "name": "merged",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "id":"19", "properties": {"icon": true, "Name": "El Centro", "description": null }, "geometry": { "type": "Point", "coordinates": [ -115.565121919600003, 33.009217969283362 ] } },
+{ "type": "Feature", "id":"19", "properties": {"icon": true, "Name": "El Centro - George", "description": null }, "geometry": { "type": "Point", "coordinates": [ -115.565121919600003, 33.009217969283362 ] } },
 { "type": "Feature", "id":"20", "properties": { "icon": true, "Name": "Davis Monthan A.F.B", "description": null }, "geometry": { "type": "Point", "coordinates": [ -110.812623927607603, 32.147422065966857 ] } },
 { "type": "Feature", "id":"21", "properties": { "icon": true, "Name": "Miramar Jct", "description": null }, "geometry": { "type": "Point", "coordinates": [ -117.240681484921595, 32.979510947870743 ] } },
 { "type": "Feature", "id":"22", "properties": { "icon": true, "Name": "Luke A.F.B", "description": null }, "geometry": { "type": "Point", "coordinates": [ -112.461734341667693, 33.495934654926231 ] } },
